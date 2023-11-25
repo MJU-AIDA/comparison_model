@@ -1,0 +1,6 @@
+pytorch>=1.2
+numpy
+sklearn
+tqdm
+tensorboardX
+prefetch_generator

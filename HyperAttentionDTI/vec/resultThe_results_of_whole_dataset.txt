@@ -1,0 +1,817 @@
+current_time:Sep21_11-31-34
+Learning_rate:5e-05
+Epoch:200
+Batch_size:32
+Resume:False
+Patience:50
+FC_Dropout:0.5
+test_split:0.2
+validation_split:0.2
+decay_interval:10
+lr_decay:0.5
+weight_decay:0.0001
+embed_dim:64
+protein_kernel:[4, 8, 12]
+drug_kernel:[4, 6, 8]
+conv:40
+char_dim:64
+Test the stable model
+stable_set--Loss:0.47157;Accuracy:0.80580;Precision:0.78968;Recall:0.83361;AUC:0.88287;PRC:0.88719;f1_score :0.81105.
+stable_set--Loss:0.47358;Accuracy:0.79762;Precision:0.77778;Recall:0.83333;AUC:0.87844;PRC:0.89037;f1_score :0.80460.
+stable_set--Loss:0.49118;Accuracy:0.78480;Precision:0.77164;Recall:0.80903;AUC:0.86202;PRC:0.87267;f1_score :0.78990.
+Test the stable model
+stable_set--Loss:0.35573;Accuracy:0.85262;Precision:0.85229;Recall:0.85309;AUC:0.92431;PRC:0.92273;f1_score :0.85269.
+stable_set--Loss:0.38751;Accuracy:0.82759;Precision:0.82651;Recall:0.82923;AUC:0.90558;PRC:0.91357;f1_score :0.82787.
+stable_set--Loss:0.40450;Accuracy:0.82546;Precision:0.83007;Recall:0.81848;AUC:0.89780;PRC:0.90036;f1_score :0.82423.
+Test the stable model
+stable_set--Loss:0.35910;Accuracy:0.84751;Precision:0.84601;Recall:0.84968;AUC:0.92156;PRC:0.92028;f1_score :0.84784.
+stable_set--Loss:0.38951;Accuracy:0.82718;Precision:0.82372;Recall:0.83251;AUC:0.90488;PRC:0.91299;f1_score :0.82809.
+stable_set--Loss:0.41046;Accuracy:0.82012;Precision:0.82466;Recall:0.81314;AUC:0.89556;PRC:0.89773;f1_score :0.81886.
+Test the stable model
+stable_set--Loss:0.30805;Accuracy:0.86828;Precision:0.86071;Recall:0.87878;AUC:0.94316;PRC:0.94045;f1_score :0.86965.
+stable_set--Loss:0.36104;Accuracy:0.83908;Precision:0.83852;Recall:0.83990;AUC:0.91783;PRC:0.92412;f1_score :0.83921.
+stable_set--Loss:0.37752;Accuracy:0.83717;Precision:0.83703;Recall:0.83737;AUC:0.91219;PRC:0.91329;f1_score :0.83720.
+Test the stable model
+stable_set--Loss:0.34559;Accuracy:0.86177;Precision:0.85966;Recall:0.86470;AUC:0.93898;PRC:0.93743;f1_score :0.86217.
+stable_set--Loss:0.37680;Accuracy:0.83908;Precision:0.83577;Recall:0.84401;AUC:0.91709;PRC:0.92285;f1_score :0.83987.
+stable_set--Loss:0.39704;Accuracy:0.82772;Precision:0.82840;Recall:0.82669;AUC:0.90641;PRC:0.90844;f1_score :0.82754.
+Test the stable model
+stable_set--Loss:0.27156;Accuracy:0.88307;Precision:0.89213;Recall:0.87151;AUC:0.95666;PRC:0.95633;f1_score :0.88170.
+stable_set--Loss:0.34787;Accuracy:0.85181;Precision:0.86039;Recall:0.83990;AUC:0.92566;PRC:0.93085;f1_score :0.85002.
+stable_set--Loss:0.36441;Accuracy:0.84148;Precision:0.85159;Recall:0.82710;AUC:0.91983;PRC:0.92236;f1_score :0.83917.
+Test the stable model
+stable_set--Loss:0.28710;Accuracy:0.87597;Precision:0.87863;Recall:0.87245;AUC:0.95065;PRC:0.95075;f1_score :0.87553.
+stable_set--Loss:0.37114;Accuracy:0.83826;Precision:0.84391;Recall:0.83005;AUC:0.91771;PRC:0.92356;f1_score :0.83692.
+stable_set--Loss:0.38309;Accuracy:0.83573;Precision:0.83684;Recall:0.83409;AUC:0.91397;PRC:0.91769;f1_score :0.83546.
+Test the stable model
+stable_set--Loss:0.23505;Accuracy:0.90090;Precision:0.90048;Recall:0.90143;AUC:0.96839;PRC:0.96844;f1_score :0.90096.
+stable_set--Loss:0.33553;Accuracy:0.85057;Precision:0.84715;Recall:0.85550;AUC:0.93158;PRC:0.93727;f1_score :0.85131.
+stable_set--Loss:0.35836;Accuracy:0.84353;Precision:0.84269;Recall:0.84476;AUC:0.92416;PRC:0.92924;f1_score :0.84372.
+Test the stable model
+stable_set--Loss:0.26369;Accuracy:0.88336;Precision:0.93021;Recall:0.82891;AUC:0.96366;PRC:0.96391;f1_score :0.87664.
+stable_set--Loss:0.34296;Accuracy:0.84565;Precision:0.89419;Recall:0.78407;AUC:0.92691;PRC:0.93322;f1_score :0.83552.
+stable_set--Loss:0.36011;Accuracy:0.83963;Precision:0.88358;Recall:0.78234;AUC:0.92264;PRC:0.92737;f1_score :0.82988.
+Test the stable model
+stable_set--Loss:0.20774;Accuracy:0.91440;Precision:0.93465;Recall:0.89111;AUC:0.97769;PRC:0.97819;f1_score :0.91236.
+stable_set--Loss:0.33247;Accuracy:0.85057;Precision:0.86938;Recall:0.82512;AUC:0.93307;PRC:0.93912;f1_score :0.84667.
+stable_set--Loss:0.33843;Accuracy:0.85359;Precision:0.87402;Recall:0.82628;AUC:0.93193;PRC:0.93744;f1_score :0.84948.
+Test the stable model
+stable_set--Loss:0.28572;Accuracy:0.88929;Precision:0.85417;Recall:0.93886;AUC:0.96657;PRC:0.96795;f1_score :0.89452.
+stable_set--Loss:0.36658;Accuracy:0.82800;Precision:0.79139;Recall:0.89080;AUC:0.92418;PRC:0.93005;f1_score :0.83816.
+stable_set--Loss:0.37786;Accuracy:0.83758;Precision:0.80467;Recall:0.89158;AUC:0.92060;PRC:0.92621;f1_score :0.84590.
+Test the stable model
+stable_set--Loss:0.16868;Accuracy:0.93411;Precision:0.93426;Recall:0.93394;AUC:0.98576;PRC:0.98614;f1_score :0.93410.
+stable_set--Loss:0.33199;Accuracy:0.85673;Precision:0.85354;Recall:0.86125;AUC:0.93717;PRC:0.94316;f1_score :0.85738.
+stable_set--Loss:0.34332;Accuracy:0.85955;Precision:0.85925;Recall:0.85996;AUC:0.93417;PRC:0.94003;f1_score :0.85961.
+Test the stable model
+stable_set--Loss:0.20140;Accuracy:0.91364;Precision:0.92256;Recall:0.90307;AUC:0.97713;PRC:0.97785;f1_score :0.91271.
+stable_set--Loss:0.33542;Accuracy:0.85837;Precision:0.86650;Recall:0.84729;AUC:0.93457;PRC:0.94069;f1_score :0.85679.
+stable_set--Loss:0.35789;Accuracy:0.85565;Precision:0.85874;Recall:0.85133;AUC:0.92805;PRC:0.93364;f1_score :0.85502.
+Test the stable model
+stable_set--Loss:0.13218;Accuracy:0.94620;Precision:0.95918;Recall:0.93206;AUC:0.99095;PRC:0.99112;f1_score :0.94543.
+stable_set--Loss:0.35646;Accuracy:0.86700;Precision:0.87437;Recall:0.85714;AUC:0.93867;PRC:0.94365;f1_score :0.86567.
+stable_set--Loss:0.36604;Accuracy:0.86242;Precision:0.87378;Recall:0.84723;AUC:0.93606;PRC:0.94189;f1_score :0.86030.
+Test the stable model
+stable_set--Loss:0.18429;Accuracy:0.92115;Precision:0.92910;Recall:0.91188;AUC:0.97965;PRC:0.98045;f1_score :0.92041.
+stable_set--Loss:0.38274;Accuracy:0.85509;Precision:0.85597;Recall:0.85386;AUC:0.93293;PRC:0.93892;f1_score :0.85491.
+stable_set--Loss:0.39160;Accuracy:0.85257;Precision:0.85786;Recall:0.84517;AUC:0.93086;PRC:0.93792;f1_score :0.85147.
+Test the stable model
+stable_set--Loss:0.10539;Accuracy:0.96345;Precision:0.96220;Recall:0.96480;AUC:0.99501;PRC:0.99501;f1_score :0.96350.
+stable_set--Loss:0.36360;Accuracy:0.86453;Precision:0.85806;Recall:0.87356;AUC:0.93921;PRC:0.94480;f1_score :0.86574.
+stable_set--Loss:0.37249;Accuracy:0.86407;Precision:0.86466;Recall:0.86324;AUC:0.93739;PRC:0.94238;f1_score :0.86395.
+Test the stable model
+stable_set--Loss:0.16178;Accuracy:0.93376;Precision:0.93534;Recall:0.93194;AUC:0.98587;PRC:0.98622;f1_score :0.93364.
+stable_set--Loss:0.35544;Accuracy:0.85837;Precision:0.85517;Recall:0.86289;AUC:0.93390;PRC:0.93728;f1_score :0.85901.
+stable_set--Loss:0.36016;Accuracy:0.85975;Precision:0.86139;Recall:0.85749;AUC:0.93183;PRC:0.93640;f1_score :0.85944.
+Test the stable model
+stable_set--Loss:0.08123;Accuracy:0.97266;Precision:0.97635;Recall:0.96879;AUC:0.99719;PRC:0.99720;f1_score :0.97255.
+stable_set--Loss:0.38740;Accuracy:0.86576;Precision:0.86486;Recall:0.86700;AUC:0.93953;PRC:0.94503;f1_score :0.86593.
+stable_set--Loss:0.39234;Accuracy:0.86735;Precision:0.87663;Recall:0.85503;AUC:0.93824;PRC:0.94340;f1_score :0.86570.
+Test the stable model
+stable_set--Loss:0.14044;Accuracy:0.94790;Precision:0.92629;Recall:0.97325;AUC:0.99125;PRC:0.99151;f1_score :0.94919.
+stable_set--Loss:0.39094;Accuracy:0.85468;Precision:0.82287;Recall:0.90394;AUC:0.93468;PRC:0.93873;f1_score :0.86150.
+stable_set--Loss:0.39341;Accuracy:0.85216;Precision:0.82742;Recall:0.88994;AUC:0.93312;PRC:0.93756;f1_score :0.85754.
+Test the stable model
+stable_set--Loss:0.06506;Accuracy:0.98034;Precision:0.97582;Recall:0.98510;AUC:0.99828;PRC:0.99830;f1_score :0.98044.
+stable_set--Loss:0.40911;Accuracy:0.86535;Precision:0.84711;Recall:0.89163;AUC:0.94033;PRC:0.94506;f1_score :0.86880.
+stable_set--Loss:0.41379;Accuracy:0.86735;Precision:0.85823;Recall:0.88008;AUC:0.93881;PRC:0.94490;f1_score :0.86902.
+Test the stable model
+stable_set--Loss:0.12738;Accuracy:0.95418;Precision:0.93251;Recall:0.97923;AUC:0.99338;PRC:0.99351;f1_score :0.95530.
+stable_set--Loss:0.39243;Accuracy:0.85427;Precision:0.82322;Recall:0.90230;AUC:0.93469;PRC:0.93757;f1_score :0.86095.
+stable_set--Loss:0.38811;Accuracy:0.85606;Precision:0.83244;Recall:0.89158;AUC:0.93301;PRC:0.93868;f1_score :0.86100.
+Test the stable model
+stable_set--Loss:0.04947;Accuracy:0.98651;Precision:0.98503;Recall:0.98803;AUC:0.99910;PRC:0.99909;f1_score :0.98653.
+stable_set--Loss:0.43712;Accuracy:0.86576;Precision:0.85442;Recall:0.88177;AUC:0.94149;PRC:0.94671;f1_score :0.86788.
+stable_set--Loss:0.44572;Accuracy:0.86776;Precision:0.86123;Recall:0.87680;AUC:0.93945;PRC:0.94500;f1_score :0.86895.
+Test the stable model
+stable_set--Loss:0.11141;Accuracy:0.96257;Precision:0.97840;Recall:0.94602;AUC:0.99543;PRC:0.99550;f1_score :0.96194.
+stable_set--Loss:0.36335;Accuracy:0.86330;Precision:0.88579;Recall:0.83415;AUC:0.93781;PRC:0.94319;f1_score :0.85920.
+stable_set--Loss:0.38600;Accuracy:0.86057;Precision:0.88509;Recall:0.82875;AUC:0.93228;PRC:0.93885;f1_score :0.85599.
+Test the stable model
+stable_set--Loss:0.03856;Accuracy:0.99020;Precision:0.98843;Recall:0.99202;AUC:0.99946;PRC:0.99946;f1_score :0.99022.
+stable_set--Loss:0.45438;Accuracy:0.86741;Precision:0.85601;Recall:0.88342;AUC:0.94255;PRC:0.94685;f1_score :0.86949.
+stable_set--Loss:0.46163;Accuracy:0.87454;Precision:0.87134;Recall:0.87885;AUC:0.94101;PRC:0.94634;f1_score :0.87508.
+Test the stable model
+stable_set--Loss:0.13619;Accuracy:0.94720;Precision:0.91254;Recall:0.98920;AUC:0.99481;PRC:0.99495;f1_score :0.94932.
+stable_set--Loss:0.46668;Accuracy:0.84319;Precision:0.79272;Recall:0.92939;AUC:0.93677;PRC:0.94125;f1_score :0.85563.
+stable_set--Loss:0.47657;Accuracy:0.83552;Precision:0.79158;Recall:0.91088;AUC:0.93207;PRC:0.93891;f1_score :0.84705.
+Test the stable model
+stable_set--Loss:0.02979;Accuracy:0.99360;Precision:0.99262;Recall:0.99460;AUC:0.99978;PRC:0.99977;f1_score :0.99361.
+stable_set--Loss:0.48661;Accuracy:0.86700;Precision:0.85476;Recall:0.88424;AUC:0.93950;PRC:0.94434;f1_score :0.86925.
+stable_set--Loss:0.49740;Accuracy:0.87002;Precision:0.86686;Recall:0.87433;AUC:0.93759;PRC:0.94384;f1_score :0.87058.
+Test the stable model
+stable_set--Loss:0.09100;Accuracy:0.96386;Precision:0.94819;Recall:0.98134;AUC:0.99620;PRC:0.99635;f1_score :0.96448.
+stable_set--Loss:0.45444;Accuracy:0.84195;Precision:0.81339;Recall:0.88752;AUC:0.93363;PRC:0.94076;f1_score :0.84884.
+stable_set--Loss:0.45431;Accuracy:0.84969;Precision:0.82763;Recall:0.88337;AUC:0.93100;PRC:0.93672;f1_score :0.85459.
+Test the stable model
+stable_set--Loss:0.02285;Accuracy:0.99519;Precision:0.99449;Recall:0.99589;AUC:0.99986;PRC:0.99986;f1_score :0.99519.
+stable_set--Loss:0.50470;Accuracy:0.86946;Precision:0.85885;Recall:0.88424;AUC:0.94221;PRC:0.94764;f1_score :0.87136.
+stable_set--Loss:0.51155;Accuracy:0.87639;Precision:0.87546;Recall:0.87762;AUC:0.94072;PRC:0.94655;f1_score :0.87654.
+Test the stable model
+stable_set--Loss:0.05615;Accuracy:0.98070;Precision:0.97873;Recall:0.98275;AUC:0.99843;PRC:0.99848;f1_score :0.98074.
+stable_set--Loss:0.44407;Accuracy:0.86248;Precision:0.85123;Recall:0.87849;AUC:0.93882;PRC:0.94448;f1_score :0.86465.
+stable_set--Loss:0.46986;Accuracy:0.86509;Precision:0.86705;Recall:0.86242;AUC:0.93378;PRC:0.94097;f1_score :0.86473.
+Test the stable model
+stable_set--Loss:0.01781;Accuracy:0.99625;Precision:0.99694;Recall:0.99554;AUC:0.99994;PRC:0.99994;f1_score :0.99624.
+stable_set--Loss:0.51208;Accuracy:0.87438;Precision:0.86480;Recall:0.88752;AUC:0.94487;PRC:0.94972;f1_score :0.87601.
+stable_set--Loss:0.54859;Accuracy:0.87248;Precision:0.87172;Recall:0.87351;AUC:0.94019;PRC:0.94651;f1_score :0.87262.
+Test the stable model
+stable_set--Loss:0.08011;Accuracy:0.97330;Precision:0.96765;Recall:0.97935;AUC:0.99695;PRC:0.99700;f1_score :0.97346.
+stable_set--Loss:0.43012;Accuracy:0.85961;Precision:0.84434;Recall:0.88177;AUC:0.93400;PRC:0.94083;f1_score :0.86265.
+stable_set--Loss:0.45630;Accuracy:0.85195;Precision:0.84116;Recall:0.86776;AUC:0.92867;PRC:0.93510;f1_score :0.85426.
+Test the stable model
+stable_set--Loss:0.01531;Accuracy:0.99695;Precision:0.99625;Recall:0.99765;AUC:0.99991;PRC:0.99992;f1_score :0.99695.
+stable_set--Loss:0.52915;Accuracy:0.87233;Precision:0.86309;Recall:0.88506;AUC:0.94294;PRC:0.94700;f1_score :0.87394.
+stable_set--Loss:0.54488;Accuracy:0.87064;Precision:0.86524;Recall:0.87803;AUC:0.94113;PRC:0.94742;f1_score :0.87159.
+Test the stable model
+stable_set--Loss:0.05615;Accuracy:0.98064;Precision:0.97694;Recall:0.98451;AUC:0.99826;PRC:0.99834;f1_score :0.98071.
+stable_set--Loss:0.51432;Accuracy:0.87110;Precision:0.85987;Recall:0.88670;AUC:0.93466;PRC:0.93970;f1_score :0.87308.
+stable_set--Loss:0.48602;Accuracy:0.86817;Precision:0.85874;Recall:0.88131;AUC:0.93842;PRC:0.94556;f1_score :0.86988.
+Test the stable model
+stable_set--Loss:0.01163;Accuracy:0.99806;Precision:0.99812;Recall:0.99801;AUC:0.99997;PRC:0.99997;f1_score :0.99806.
+stable_set--Loss:0.54686;Accuracy:0.87808;Precision:0.86929;Recall:0.88998;AUC:0.94162;PRC:0.94671;f1_score :0.87951.
+stable_set--Loss:0.54852;Accuracy:0.87782;Precision:0.87643;Recall:0.87967;AUC:0.94199;PRC:0.94878;f1_score :0.87805.
+Test the stable model
+stable_set--Loss:0.06584;Accuracy:0.97682;Precision:0.96318;Recall:0.99155;AUC:0.99830;PRC:0.99836;f1_score :0.97716.
+stable_set--Loss:0.48172;Accuracy:0.85345;Precision:0.82393;Recall:0.89901;AUC:0.93380;PRC:0.93717;f1_score :0.85984.
+stable_set--Loss:0.48689;Accuracy:0.85524;Precision:0.82865;Recall:0.89569;AUC:0.93270;PRC:0.93908;f1_score :0.86086.
+Test the stable model
+stable_set--Loss:0.01203;Accuracy:0.99742;Precision:0.99719;Recall:0.99765;AUC:0.99994;PRC:0.99994;f1_score :0.99742.
+stable_set--Loss:0.53516;Accuracy:0.87479;Precision:0.86726;Recall:0.88506;AUC:0.94286;PRC:0.94627;f1_score :0.87607.
+stable_set--Loss:0.55194;Accuracy:0.87474;Precision:0.87691;Recall:0.87187;AUC:0.94045;PRC:0.94726;f1_score :0.87438.
+Test the stable model
+stable_set--Loss:0.04131;Accuracy:0.98551;Precision:0.99168;Recall:0.97923;AUC:0.99911;PRC:0.99913;f1_score :0.98542.
+stable_set--Loss:0.54168;Accuracy:0.86864;Precision:0.87542;Recall:0.85961;AUC:0.93930;PRC:0.94225;f1_score :0.86744.
+stable_set--Loss:0.56943;Accuracy:0.86550;Precision:0.87553;Recall:0.85216;AUC:0.93544;PRC:0.94313;f1_score :0.86368.
+Test the stable model
+stable_set--Loss:0.00951;Accuracy:0.99806;Precision:0.99742;Recall:0.99871;AUC:0.99999;PRC:0.99999;f1_score :0.99807.
+stable_set--Loss:0.57226;Accuracy:0.87438;Precision:0.85962;Recall:0.89491;AUC:0.94060;PRC:0.94367;f1_score :0.87691.
+stable_set--Loss:0.55948;Accuracy:0.87474;Precision:0.86899;Recall:0.88255;AUC:0.94163;PRC:0.94833;f1_score :0.87571.
+Test the stable model
+stable_set--Loss:0.04600;Accuracy:0.98516;Precision:0.98476;Recall:0.98557;AUC:0.99896;PRC:0.99896;f1_score :0.98516.
+stable_set--Loss:0.48909;Accuracy:0.85878;Precision:0.84628;Recall:0.87685;AUC:0.93635;PRC:0.94147;f1_score :0.86129.
+stable_set--Loss:0.48039;Accuracy:0.86940;Precision:0.86461;Recall:0.87598;AUC:0.93807;PRC:0.94346;f1_score :0.87026.
+Test the stable model
+stable_set--Loss:0.00711;Accuracy:0.99847;Precision:0.99836;Recall:0.99859;AUC:0.99998;PRC:0.99998;f1_score :0.99847.
+stable_set--Loss:0.65670;Accuracy:0.87110;Precision:0.86160;Recall:0.88424;AUC:0.94031;PRC:0.94580;f1_score :0.87277.
+stable_set--Loss:0.61181;Accuracy:0.87906;Precision:0.87490;Recall:0.88460;AUC:0.94443;PRC:0.95061;f1_score :0.87972.
+Test the stable model
+stable_set--Loss:0.03859;Accuracy:0.98891;Precision:0.98851;Recall:0.98932;AUC:0.99921;PRC:0.99920;f1_score :0.98892.
+stable_set--Loss:0.47342;Accuracy:0.87069;Precision:0.86857;Recall:0.87356;AUC:0.93762;PRC:0.94120;f1_score :0.87106.
+stable_set--Loss:0.47826;Accuracy:0.87269;Precision:0.87269;Recall:0.87269;AUC:0.93723;PRC:0.94231;f1_score :0.87269.
+Test the stable model
+stable_set--Loss:0.00738;Accuracy:0.99842;Precision:0.99812;Recall:0.99871;AUC:0.99996;PRC:0.99995;f1_score :0.99842.
+stable_set--Loss:0.61838;Accuracy:0.88095;Precision:0.87601;Recall:0.88752;AUC:0.94395;PRC:0.94813;f1_score :0.88173.
+stable_set--Loss:0.63085;Accuracy:0.87906;Precision:0.88109;Recall:0.87639;AUC:0.94320;PRC:0.94836;f1_score :0.87873.
+Test the stable model
+stable_set--Loss:0.04421;Accuracy:0.98592;Precision:0.98879;Recall:0.98299;AUC:0.99884;PRC:0.99887;f1_score :0.98588.
+stable_set--Loss:0.52085;Accuracy:0.86864;Precision:0.86327;Recall:0.87603;AUC:0.93429;PRC:0.93934;f1_score :0.86960.
+stable_set--Loss:0.51383;Accuracy:0.86612;Precision:0.86582;Recall:0.86653;AUC:0.93448;PRC:0.94215;f1_score :0.86617.
+Test the stable model
+stable_set--Loss:0.00622;Accuracy:0.99894;Precision:0.99836;Recall:0.99953;AUC:0.99999;PRC:0.99999;f1_score :0.99894.
+stable_set--Loss:0.65428;Accuracy:0.87028;Precision:0.85680;Recall:0.88916;AUC:0.94187;PRC:0.94730;f1_score :0.87268.
+stable_set--Loss:0.64010;Accuracy:0.87536;Precision:0.86385;Recall:0.89117;AUC:0.94233;PRC:0.94894;f1_score :0.87730.
+Test the stable model
+stable_set--Loss:0.04961;Accuracy:0.98527;Precision:0.97584;Recall:0.99519;AUC:0.99913;PRC:0.99913;f1_score :0.98542.
+stable_set--Loss:0.47477;Accuracy:0.86289;Precision:0.83896;Recall:0.89819;AUC:0.93911;PRC:0.94529;f1_score :0.86757.
+stable_set--Loss:0.48046;Accuracy:0.86366;Precision:0.84071;Recall:0.89733;AUC:0.93662;PRC:0.94290;f1_score :0.86810.
+Test the stable model
+stable_set--Loss:0.00546;Accuracy:0.99912;Precision:0.99918;Recall:0.99906;AUC:1.00000;PRC:1.00000;f1_score :0.99912.
+stable_set--Loss:0.61901;Accuracy:0.87603;Precision:0.86758;Recall:0.88752;AUC:0.94322;PRC:0.94780;f1_score :0.87744.
+stable_set--Loss:0.59412;Accuracy:0.88357;Precision:0.87661;Recall:0.89281;AUC:0.94417;PRC:0.95055;f1_score :0.88464.
+Test the stable model
+stable_set--Loss:0.02425;Accuracy:0.99272;Precision:0.99481;Recall:0.99061;AUC:0.99950;PRC:0.99956;f1_score :0.99271.
+stable_set--Loss:0.59531;Accuracy:0.87110;Precision:0.86868;Recall:0.87438;AUC:0.93954;PRC:0.94460;f1_score :0.87152.
+stable_set--Loss:0.59501;Accuracy:0.87351;Precision:0.87229;Recall:0.87515;AUC:0.93873;PRC:0.94542;f1_score :0.87372.
+Test the stable model
+stable_set--Loss:0.00545;Accuracy:0.99912;Precision:0.99894;Recall:0.99930;AUC:1.00000;PRC:1.00000;f1_score :0.99912.
+stable_set--Loss:0.61738;Accuracy:0.87603;Precision:0.87115;Recall:0.88259;AUC:0.94255;PRC:0.94701;f1_score :0.87684.
+stable_set--Loss:0.62634;Accuracy:0.87741;Precision:0.87358;Recall:0.88255;AUC:0.94191;PRC:0.94780;f1_score :0.87804.
+Test the stable model
+stable_set--Loss:0.05174;Accuracy:0.98222;Precision:0.96939;Recall:0.99589;AUC:0.99908;PRC:0.99906;f1_score :0.98246.
+stable_set--Loss:0.60736;Accuracy:0.85181;Precision:0.81484;Recall:0.91051;AUC:0.93580;PRC:0.93967;f1_score :0.86002.
+stable_set--Loss:0.57495;Accuracy:0.85914;Precision:0.82888;Recall:0.90513;AUC:0.93738;PRC:0.94345;f1_score :0.86533.
+Test the stable model
+stable_set--Loss:0.00374;Accuracy:0.99941;Precision:0.99965;Recall:0.99918;AUC:1.00000;PRC:1.00000;f1_score :0.99941.
+stable_set--Loss:0.68529;Accuracy:0.87890;Precision:0.86714;Recall:0.89491;AUC:0.94131;PRC:0.94526;f1_score :0.88081.
+stable_set--Loss:0.64024;Accuracy:0.87639;Precision:0.87211;Recall:0.88214;AUC:0.94371;PRC:0.94973;f1_score :0.87709.
+Test the stable model
+stable_set--Loss:0.05841;Accuracy:0.98023;Precision:0.98017;Recall:0.98029;AUC:0.99796;PRC:0.99809;f1_score :0.98023.
+stable_set--Loss:0.56410;Accuracy:0.86166;Precision:0.84658;Recall:0.88342;AUC:0.93486;PRC:0.93990;f1_score :0.86460.
+stable_set--Loss:0.55022;Accuracy:0.86756;Precision:0.86147;Recall:0.87598;AUC:0.93344;PRC:0.94005;f1_score :0.86866.
+Test the stable model
+stable_set--Loss:0.00567;Accuracy:0.99894;Precision:0.99883;Recall:0.99906;AUC:0.99999;PRC:0.99999;f1_score :0.99894.
+stable_set--Loss:0.60476;Accuracy:0.88177;Precision:0.87260;Recall:0.89409;AUC:0.94314;PRC:0.94670;f1_score :0.88321.
+stable_set--Loss:0.59126;Accuracy:0.88152;Precision:0.88168;Recall:0.88131;AUC:0.94392;PRC:0.94983;f1_score :0.88150.
+Test the stable model
+stable_set--Loss:0.04149;Accuracy:0.98604;Precision:0.98433;Recall:0.98780;AUC:0.99886;PRC:0.99895;f1_score :0.98606.
+stable_set--Loss:0.61129;Accuracy:0.86782;Precision:0.85612;Recall:0.88424;AUC:0.93590;PRC:0.93323;f1_score :0.86995.
+stable_set--Loss:0.60647;Accuracy:0.86632;Precision:0.85795;Recall:0.87803;AUC:0.93761;PRC:0.93814;f1_score :0.86787.
+Test the stable model
+stable_set--Loss:0.00532;Accuracy:0.99889;Precision:0.99894;Recall:0.99883;AUC:0.99998;PRC:0.99998;f1_score :0.99889.
+stable_set--Loss:0.58889;Accuracy:0.88054;Precision:0.86410;Recall:0.90312;AUC:0.94626;PRC:0.95024;f1_score :0.88318.
+stable_set--Loss:0.60133;Accuracy:0.87967;Precision:0.87874;Recall:0.88090;AUC:0.94507;PRC:0.95028;f1_score :0.87982.
+Test the stable model
+stable_set--Loss:0.02721;Accuracy:0.99114;Precision:0.99074;Recall:0.99155;AUC:0.99962;PRC:0.99965;f1_score :0.99114.
+stable_set--Loss:0.50298;Accuracy:0.87562;Precision:0.86338;Recall:0.89245;AUC:0.94079;PRC:0.94502;f1_score :0.87767.
+stable_set--Loss:0.53380;Accuracy:0.86468;Precision:0.85806;Recall:0.87392;AUC:0.93769;PRC:0.94304;f1_score :0.86592.
+Test the stable model
+stable_set--Loss:0.00447;Accuracy:0.99900;Precision:0.99813;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99900.
+stable_set--Loss:0.67397;Accuracy:0.87397;Precision:0.85120;Recall:0.90640;AUC:0.94345;PRC:0.94810;f1_score :0.87793.
+stable_set--Loss:0.67240;Accuracy:0.87207;Precision:0.85641;Recall:0.89405;AUC:0.94057;PRC:0.94768;f1_score :0.87482.
+Test the stable model
+stable_set--Loss:0.02332;Accuracy:0.99278;Precision:0.99192;Recall:0.99366;AUC:0.99966;PRC:0.99967;f1_score :0.99279.
+stable_set--Loss:0.54818;Accuracy:0.87685;Precision:0.86897;Recall:0.88752;AUC:0.94365;PRC:0.94711;f1_score :0.87815.
+stable_set--Loss:0.58272;Accuracy:0.86756;Precision:0.85714;Recall:0.88214;AUC:0.93901;PRC:0.94423;f1_score :0.86946.
+Test the stable model
+stable_set--Loss:0.00373;Accuracy:0.99935;Precision:0.99906;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99935.
+stable_set--Loss:0.66960;Accuracy:0.87521;Precision:0.86560;Recall:0.88834;AUC:0.94286;PRC:0.94754;f1_score :0.87682.
+stable_set--Loss:0.65735;Accuracy:0.87536;Precision:0.86974;Recall:0.88296;AUC:0.94382;PRC:0.95024;f1_score :0.87630.
+Test the stable model
+stable_set--Loss:0.02330;Accuracy:0.99384;Precision:0.99216;Recall:0.99554;AUC:0.99960;PRC:0.99965;f1_score :0.99385.
+stable_set--Loss:0.58271;Accuracy:0.87028;Precision:0.86254;Recall:0.88095;AUC:0.93827;PRC:0.94443;f1_score :0.87165.
+stable_set--Loss:0.57634;Accuracy:0.87002;Precision:0.86243;Recall:0.88049;AUC:0.93827;PRC:0.94532;f1_score :0.87137.
+Test the stable model
+stable_set--Loss:0.00392;Accuracy:0.99935;Precision:0.99918;Recall:0.99953;AUC:1.00000;PRC:1.00000;f1_score :0.99935.
+stable_set--Loss:0.64319;Accuracy:0.87726;Precision:0.86439;Recall:0.89491;AUC:0.94436;PRC:0.94964;f1_score :0.87939.
+stable_set--Loss:0.63926;Accuracy:0.87577;Precision:0.86659;Recall:0.88830;AUC:0.94415;PRC:0.95088;f1_score :0.87731.
+Test the stable model
+stable_set--Loss:0.02802;Accuracy:0.99126;Precision:0.99017;Recall:0.99237;AUC:0.99941;PRC:0.99947;f1_score :0.99127.
+stable_set--Loss:0.54196;Accuracy:0.86207;Precision:0.84670;Recall:0.88424;AUC:0.93930;PRC:0.94344;f1_score :0.86506.
+stable_set--Loss:0.58278;Accuracy:0.86920;Precision:0.85590;Recall:0.88789;AUC:0.93543;PRC:0.94362;f1_score :0.87160.
+Test the stable model
+stable_set--Loss:0.00420;Accuracy:0.99906;Precision:0.99906;Recall:0.99906;AUC:1.00000;PRC:1.00000;f1_score :0.99906.
+stable_set--Loss:0.64168;Accuracy:0.88300;Precision:0.87591;Recall:0.89245;AUC:0.94287;PRC:0.94756;f1_score :0.88410.
+stable_set--Loss:0.65297;Accuracy:0.87823;Precision:0.87469;Recall:0.88296;AUC:0.94229;PRC:0.94845;f1_score :0.87881.
+Test the stable model
+stable_set--Loss:0.01921;Accuracy:0.99349;Precision:0.99320;Recall:0.99378;AUC:0.99977;PRC:0.99977;f1_score :0.99349.
+stable_set--Loss:0.61324;Accuracy:0.87972;Precision:0.86794;Recall:0.89573;AUC:0.93997;PRC:0.94073;f1_score :0.88162.
+stable_set--Loss:0.63194;Accuracy:0.87536;Precision:0.87521;Recall:0.87556;AUC:0.93929;PRC:0.94459;f1_score :0.87538.
+Test the stable model
+stable_set--Loss:0.00392;Accuracy:0.99924;Precision:0.99918;Recall:0.99930;AUC:0.99999;PRC:0.99999;f1_score :0.99924.
+stable_set--Loss:0.60658;Accuracy:0.88218;Precision:0.86740;Recall:0.90230;AUC:0.94700;PRC:0.95189;f1_score :0.88451.
+stable_set--Loss:0.64426;Accuracy:0.87207;Precision:0.85641;Recall:0.89405;AUC:0.94304;PRC:0.94972;f1_score :0.87482.
+Test the stable model
+stable_set--Loss:0.02432;Accuracy:0.99278;Precision:0.99377;Recall:0.99179;AUC:0.99952;PRC:0.99956;f1_score :0.99278.
+stable_set--Loss:0.51258;Accuracy:0.87890;Precision:0.87009;Recall:0.89080;AUC:0.94274;PRC:0.94984;f1_score :0.88032.
+stable_set--Loss:0.55854;Accuracy:0.87084;Precision:0.86559;Recall:0.87803;AUC:0.93832;PRC:0.94553;f1_score :0.87176.
+Test the stable model
+stable_set--Loss:0.00315;Accuracy:0.99941;Precision:0.99941;Recall:0.99941;AUC:0.99998;PRC:0.99998;f1_score :0.99941.
+stable_set--Loss:0.70769;Accuracy:0.88177;Precision:0.87260;Recall:0.89409;AUC:0.94645;PRC:0.94996;f1_score :0.88321.
+stable_set--Loss:0.74674;Accuracy:0.87988;Precision:0.87541;Recall:0.88583;AUC:0.94264;PRC:0.94924;f1_score :0.88059.
+Test the stable model
+stable_set--Loss:0.02742;Accuracy:0.99179;Precision:0.98586;Recall:0.99789;AUC:0.99979;PRC:0.99979;f1_score :0.99184.
+stable_set--Loss:0.55782;Accuracy:0.86002;Precision:0.82748;Recall:0.90969;AUC:0.94339;PRC:0.94836;f1_score :0.86664.
+stable_set--Loss:0.61323;Accuracy:0.85729;Precision:0.83206;Recall:0.89528;AUC:0.93702;PRC:0.94368;f1_score :0.86251.
+Test the stable model
+stable_set--Loss:0.00341;Accuracy:0.99941;Precision:0.99918;Recall:0.99965;AUC:0.99999;PRC:0.99999;f1_score :0.99941.
+stable_set--Loss:0.67121;Accuracy:0.88383;Precision:0.87611;Recall:0.89409;AUC:0.94843;PRC:0.95086;f1_score :0.88501.
+stable_set--Loss:0.73598;Accuracy:0.88193;Precision:0.87928;Recall:0.88542;AUC:0.94451;PRC:0.95091;f1_score :0.88234.
+Test the stable model
+stable_set--Loss:0.02020;Accuracy:0.99413;Precision:0.99471;Recall:0.99355;AUC:0.99966;PRC:0.99971;f1_score :0.99413.
+stable_set--Loss:0.56309;Accuracy:0.87356;Precision:0.86400;Recall:0.88670;AUC:0.94306;PRC:0.94668;f1_score :0.87520.
+stable_set--Loss:0.60773;Accuracy:0.87269;Precision:0.86786;Recall:0.87926;AUC:0.93943;PRC:0.94718;f1_score :0.87352.
+Test the stable model
+stable_set--Loss:0.00246;Accuracy:0.99965;Precision:0.99930;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.69592;Accuracy:0.87479;Precision:0.86201;Recall:0.89245;AUC:0.94554;PRC:0.94997;f1_score :0.87697.
+stable_set--Loss:0.70528;Accuracy:0.87967;Precision:0.87114;Recall:0.89117;AUC:0.94477;PRC:0.95112;f1_score :0.88104.
+Test the stable model
+stable_set--Loss:0.01942;Accuracy:0.99349;Precision:0.99170;Recall:0.99531;AUC:0.99969;PRC:0.99966;f1_score :0.99350.
+stable_set--Loss:0.65280;Accuracy:0.87233;Precision:0.85964;Recall:0.88998;AUC:0.94193;PRC:0.94553;f1_score :0.87455.
+stable_set--Loss:0.64959;Accuracy:0.87556;Precision:0.86742;Recall:0.88665;AUC:0.94326;PRC:0.94869;f1_score :0.87693.
+Test the stable model
+stable_set--Loss:0.00214;Accuracy:0.99965;Precision:0.99965;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.71289;Accuracy:0.87767;Precision:0.86566;Recall:0.89409;AUC:0.94267;PRC:0.94858;f1_score :0.87964.
+stable_set--Loss:0.73542;Accuracy:0.88214;Precision:0.88026;Recall:0.88460;AUC:0.94176;PRC:0.94817;f1_score :0.88243.
+Test the stable model
+stable_set--Loss:0.02067;Accuracy:0.99337;Precision:0.99135;Recall:0.99542;AUC:0.99969;PRC:0.99973;f1_score :0.99338.
+stable_set--Loss:0.65494;Accuracy:0.86494;Precision:0.83700;Recall:0.90640;AUC:0.93989;PRC:0.94351;f1_score :0.87032.
+stable_set--Loss:0.62955;Accuracy:0.86961;Precision:0.85405;Recall:0.89158;AUC:0.94266;PRC:0.94952;f1_score :0.87241.
+Test the stable model
+stable_set--Loss:0.00232;Accuracy:0.99965;Precision:0.99953;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.68215;Accuracy:0.87972;Precision:0.86853;Recall:0.89491;AUC:0.94568;PRC:0.95089;f1_score :0.88152.
+stable_set--Loss:0.73814;Accuracy:0.88111;Precision:0.88064;Recall:0.88172;AUC:0.94299;PRC:0.94940;f1_score :0.88118.
+Test the stable model
+stable_set--Loss:0.01879;Accuracy:0.99478;Precision:0.99402;Recall:0.99554;AUC:0.99974;PRC:0.99976;f1_score :0.99478.
+stable_set--Loss:0.53165;Accuracy:0.87397;Precision:0.86469;Recall:0.88670;AUC:0.94208;PRC:0.94602;f1_score :0.87556.
+stable_set--Loss:0.57420;Accuracy:0.87248;Precision:0.86632;Recall:0.88090;AUC:0.93910;PRC:0.94629;f1_score :0.87355.
+Test the stable model
+stable_set--Loss:0.00241;Accuracy:0.99971;Precision:0.99953;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.69203;Accuracy:0.87972;Precision:0.86911;Recall:0.89409;AUC:0.94353;PRC:0.94673;f1_score :0.88142.
+stable_set--Loss:0.70996;Accuracy:0.87577;Precision:0.86806;Recall:0.88624;AUC:0.94201;PRC:0.94849;f1_score :0.87706.
+Test the stable model
+stable_set--Loss:0.02039;Accuracy:0.99355;Precision:0.99101;Recall:0.99613;AUC:0.99978;PRC:0.99979;f1_score :0.99356.
+stable_set--Loss:0.63648;Accuracy:0.86207;Precision:0.83258;Recall:0.90640;AUC:0.93921;PRC:0.94324;f1_score :0.86792.
+stable_set--Loss:0.60965;Accuracy:0.86674;Precision:0.84479;Recall:0.89856;AUC:0.93984;PRC:0.94614;f1_score :0.87085.
+Test the stable model
+stable_set--Loss:0.00258;Accuracy:0.99935;Precision:0.99930;Recall:0.99941;AUC:1.00000;PRC:1.00000;f1_score :0.99935.
+stable_set--Loss:0.69011;Accuracy:0.87726;Precision:0.86614;Recall:0.89245;AUC:0.94339;PRC:0.94744;f1_score :0.87909.
+stable_set--Loss:0.70906;Accuracy:0.88090;Precision:0.87414;Recall:0.88994;AUC:0.94221;PRC:0.94886;f1_score :0.88197.
+Test the stable model
+stable_set--Loss:0.01338;Accuracy:0.99589;Precision:0.99741;Recall:0.99437;AUC:0.99982;PRC:0.99983;f1_score :0.99589.
+stable_set--Loss:0.65999;Accuracy:0.87767;Precision:0.87643;Recall:0.87931;AUC:0.94103;PRC:0.94543;f1_score :0.87787.
+stable_set--Loss:0.68632;Accuracy:0.88029;Precision:0.88810;Recall:0.87023;AUC:0.93881;PRC:0.94483;f1_score :0.87907.
+Test the stable model
+stable_set--Loss:0.00214;Accuracy:0.99959;Precision:0.99953;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99959.
+stable_set--Loss:0.70368;Accuracy:0.88629;Precision:0.88097;Recall:0.89327;AUC:0.94678;PRC:0.95202;f1_score :0.88708.
+stable_set--Loss:0.74687;Accuracy:0.88275;Precision:0.88481;Recall:0.88008;AUC:0.94285;PRC:0.95004;f1_score :0.88244.
+Test the stable model
+stable_set--Loss:0.02920;Accuracy:0.99214;Precision:0.99122;Recall:0.99308;AUC:0.99967;PRC:0.99968;f1_score :0.99215.
+stable_set--Loss:0.48684;Accuracy:0.86166;Precision:0.84549;Recall:0.88506;AUC:0.94052;PRC:0.94373;f1_score :0.86482.
+stable_set--Loss:0.47905;Accuracy:0.87105;Precision:0.85896;Recall:0.88789;AUC:0.94135;PRC:0.94629;f1_score :0.87318.
+Test the stable model
+stable_set--Loss:0.00244;Accuracy:0.99947;Precision:0.99918;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99947.
+stable_set--Loss:0.67093;Accuracy:0.88095;Precision:0.86593;Recall:0.90148;AUC:0.94566;PRC:0.94909;f1_score :0.88335.
+stable_set--Loss:0.69552;Accuracy:0.87700;Precision:0.86632;Recall:0.89158;AUC:0.94399;PRC:0.95026;f1_score :0.87877.
+Test the stable model
+stable_set--Loss:0.01985;Accuracy:0.99431;Precision:0.99332;Recall:0.99531;AUC:0.99968;PRC:0.99973;f1_score :0.99431.
+stable_set--Loss:0.51856;Accuracy:0.87562;Precision:0.86166;Recall:0.89491;AUC:0.94305;PRC:0.94356;f1_score :0.87797.
+stable_set--Loss:0.55024;Accuracy:0.86982;Precision:0.85355;Recall:0.89281;AUC:0.93962;PRC:0.94488;f1_score :0.87274.
+Test the stable model
+stable_set--Loss:0.00216;Accuracy:0.99971;Precision:0.99977;Recall:0.99965;AUC:0.99999;PRC:0.99999;f1_score :0.99971.
+stable_set--Loss:0.65929;Accuracy:0.88670;Precision:0.88169;Recall:0.89327;AUC:0.94866;PRC:0.95416;f1_score :0.88744.
+stable_set--Loss:0.70660;Accuracy:0.88255;Precision:0.88036;Recall:0.88542;AUC:0.94460;PRC:0.95143;f1_score :0.88288.
+Test the stable model
+stable_set--Loss:0.02371;Accuracy:0.99220;Precision:0.99156;Recall:0.99284;AUC:0.99960;PRC:0.99961;f1_score :0.99220.
+stable_set--Loss:0.57596;Accuracy:0.87849;Precision:0.86762;Recall:0.89327;AUC:0.94572;PRC:0.94751;f1_score :0.88026.
+stable_set--Loss:0.62168;Accuracy:0.87228;Precision:0.86450;Recall:0.88296;AUC:0.94081;PRC:0.94680;f1_score :0.87363.
+Test the stable model
+stable_set--Loss:0.00160;Accuracy:0.99959;Precision:0.99977;Recall:0.99941;AUC:1.00000;PRC:1.00000;f1_score :0.99959.
+stable_set--Loss:0.72832;Accuracy:0.88670;Precision:0.88543;Recall:0.88834;AUC:0.94961;PRC:0.95414;f1_score :0.88689.
+stable_set--Loss:0.83142;Accuracy:0.88131;Precision:0.88352;Recall:0.87844;AUC:0.94177;PRC:0.94832;f1_score :0.88097.
+Test the stable model
+stable_set--Loss:0.01634;Accuracy:0.99355;Precision:0.99401;Recall:0.99308;AUC:0.99984;PRC:0.99984;f1_score :0.99354.
+stable_set--Loss:0.60565;Accuracy:0.87233;Precision:0.87264;Recall:0.87192;AUC:0.94210;PRC:0.94626;f1_score :0.87228.
+stable_set--Loss:0.62272;Accuracy:0.87782;Precision:0.87459;Recall:0.88214;AUC:0.94151;PRC:0.94622;f1_score :0.87835.
+Test the stable model
+stable_set--Loss:0.00157;Accuracy:0.99977;Precision:0.99977;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.69219;Accuracy:0.87849;Precision:0.86998;Recall:0.88998;AUC:0.94667;PRC:0.95198;f1_score :0.87987.
+stable_set--Loss:0.75094;Accuracy:0.87536;Precision:0.87245;Recall:0.87926;AUC:0.94285;PRC:0.94938;f1_score :0.87584.
+Test the stable model
+stable_set--Loss:0.01824;Accuracy:0.99495;Precision:0.99380;Recall:0.99613;AUC:0.99973;PRC:0.99975;f1_score :0.99496.
+stable_set--Loss:0.54539;Accuracy:0.86905;Precision:0.85703;Recall:0.88588;AUC:0.94131;PRC:0.94551;f1_score :0.87122.
+stable_set--Loss:0.60851;Accuracy:0.86879;Precision:0.85978;Recall:0.88131;AUC:0.93508;PRC:0.94222;f1_score :0.87041.
+Test the stable model
+stable_set--Loss:0.00232;Accuracy:0.99953;Precision:0.99941;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99953.
+stable_set--Loss:0.70952;Accuracy:0.87808;Precision:0.86577;Recall:0.89491;AUC:0.94606;PRC:0.95096;f1_score :0.88010.
+stable_set--Loss:0.75435;Accuracy:0.87433;Precision:0.86214;Recall:0.89117;AUC:0.94268;PRC:0.95034;f1_score :0.87641.
+Test the stable model
+stable_set--Loss:0.01169;Accuracy:0.99677;Precision:0.99532;Recall:0.99824;AUC:0.99991;PRC:0.99991;f1_score :0.99678.
+stable_set--Loss:0.61259;Accuracy:0.86987;Precision:0.84841;Recall:0.90066;AUC:0.94142;PRC:0.94595;f1_score :0.87376.
+stable_set--Loss:0.63406;Accuracy:0.86982;Precision:0.85635;Recall:0.88871;AUC:0.94039;PRC:0.94870;f1_score :0.87223.
+Test the stable model
+stable_set--Loss:0.00173;Accuracy:0.99959;Precision:0.99953;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99959.
+stable_set--Loss:0.70282;Accuracy:0.87931;Precision:0.86551;Recall:0.89819;AUC:0.94427;PRC:0.94913;f1_score :0.88155.
+stable_set--Loss:0.73795;Accuracy:0.87577;Precision:0.86600;Recall:0.88912;AUC:0.94314;PRC:0.95108;f1_score :0.87741.
+Test the stable model
+stable_set--Loss:0.02209;Accuracy:0.99425;Precision:0.99413;Recall:0.99437;AUC:0.99953;PRC:0.99959;f1_score :0.99425.
+stable_set--Loss:0.63910;Accuracy:0.86617;Precision:0.85510;Recall:0.88177;AUC:0.93450;PRC:0.94020;f1_score :0.86823.
+stable_set--Loss:0.63267;Accuracy:0.87023;Precision:0.85902;Recall:0.88583;AUC:0.93619;PRC:0.94578;f1_score :0.87222.
+Test the stable model
+stable_set--Loss:0.00242;Accuracy:0.99941;Precision:0.99930;Recall:0.99953;AUC:1.00000;PRC:1.00000;f1_score :0.99941.
+stable_set--Loss:0.72934;Accuracy:0.88013;Precision:0.86630;Recall:0.89901;AUC:0.94310;PRC:0.94900;f1_score :0.88235.
+stable_set--Loss:0.76007;Accuracy:0.87495;Precision:0.86346;Recall:0.89076;AUC:0.94073;PRC:0.94785;f1_score :0.87690.
+Test the stable model
+stable_set--Loss:0.01520;Accuracy:0.99607;Precision:0.99473;Recall:0.99742;AUC:0.99983;PRC:0.99986;f1_score :0.99607.
+stable_set--Loss:0.55117;Accuracy:0.87849;Precision:0.86645;Recall:0.89491;AUC:0.94256;PRC:0.94829;f1_score :0.88045.
+stable_set--Loss:0.56714;Accuracy:0.87454;Precision:0.86219;Recall:0.89158;AUC:0.94197;PRC:0.94899;f1_score :0.87664.
+Test the stable model
+stable_set--Loss:0.00100;Accuracy:0.99982;Precision:0.99988;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.81031;Accuracy:0.87931;Precision:0.87138;Recall:0.88998;AUC:0.94024;PRC:0.94690;f1_score :0.88058.
+stable_set--Loss:0.80944;Accuracy:0.88029;Precision:0.87429;Recall:0.88830;AUC:0.94162;PRC:0.94884;f1_score :0.88124.
+Test the stable model
+stable_set--Loss:0.01253;Accuracy:0.99671;Precision:0.99741;Recall:0.99601;AUC:0.99991;PRC:0.99991;f1_score :0.99671.
+stable_set--Loss:0.63676;Accuracy:0.87562;Precision:0.87105;Recall:0.88177;AUC:0.93902;PRC:0.94346;f1_score :0.87638.
+stable_set--Loss:0.62741;Accuracy:0.88049;Precision:0.88206;Recall:0.87844;AUC:0.94123;PRC:0.94939;f1_score :0.88025.
+Test the stable model
+stable_set--Loss:0.00190;Accuracy:0.99971;Precision:0.99953;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.66960;Accuracy:0.88383;Precision:0.88414;Recall:0.88342;AUC:0.94593;PRC:0.95071;f1_score :0.88378.
+stable_set--Loss:0.70040;Accuracy:0.88357;Precision:0.88468;Recall:0.88214;AUC:0.94561;PRC:0.95259;f1_score :0.88341.
+Test the stable model
+stable_set--Loss:0.01464;Accuracy:0.99589;Precision:0.99613;Recall:0.99566;AUC:0.99977;PRC:0.99980;f1_score :0.99589.
+stable_set--Loss:0.68305;Accuracy:0.86905;Precision:0.85534;Recall:0.88834;AUC:0.94002;PRC:0.94454;f1_score :0.87153.
+stable_set--Loss:0.67521;Accuracy:0.87023;Precision:0.85845;Recall:0.88665;AUC:0.94183;PRC:0.94854;f1_score :0.87232.
+Test the stable model
+stable_set--Loss:0.00175;Accuracy:0.99965;Precision:0.99941;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.66928;Accuracy:0.88177;Precision:0.87200;Recall:0.89491;AUC:0.94495;PRC:0.95043;f1_score :0.88331.
+stable_set--Loss:0.68350;Accuracy:0.87988;Precision:0.87149;Recall:0.89117;AUC:0.94565;PRC:0.95120;f1_score :0.88122.
+Test the stable model
+stable_set--Loss:0.01024;Accuracy:0.99683;Precision:0.99695;Recall:0.99671;AUC:0.99991;PRC:0.99992;f1_score :0.99683.
+stable_set--Loss:0.67568;Accuracy:0.87726;Precision:0.87327;Recall:0.88259;AUC:0.93925;PRC:0.94408;f1_score :0.87791.
+stable_set--Loss:0.69126;Accuracy:0.87207;Precision:0.86562;Recall:0.88090;AUC:0.93813;PRC:0.94514;f1_score :0.87319.
+Test the stable model
+stable_set--Loss:0.00138;Accuracy:0.99965;Precision:0.99965;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.73854;Accuracy:0.88136;Precision:0.86894;Recall:0.89819;AUC:0.94624;PRC:0.95148;f1_score :0.88333.
+stable_set--Loss:0.75998;Accuracy:0.87967;Precision:0.87323;Recall:0.88830;AUC:0.94566;PRC:0.95274;f1_score :0.88070.
+Test the stable model
+stable_set--Loss:0.00914;Accuracy:0.99730;Precision:0.99695;Recall:0.99765;AUC:0.99992;PRC:0.99993;f1_score :0.99730.
+stable_set--Loss:0.64404;Accuracy:0.87931;Precision:0.87318;Recall:0.88752;AUC:0.94458;PRC:0.94934;f1_score :0.88029.
+stable_set--Loss:0.68303;Accuracy:0.87988;Precision:0.87541;Recall:0.88583;AUC:0.94373;PRC:0.95033;f1_score :0.88059.
+Test the stable model
+stable_set--Loss:0.00165;Accuracy:0.99959;Precision:0.99953;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99959.
+stable_set--Loss:0.70589;Accuracy:0.87479;Precision:0.85917;Recall:0.89655;AUC:0.94669;PRC:0.95142;f1_score :0.87746.
+stable_set--Loss:0.74442;Accuracy:0.87700;Precision:0.86256;Recall:0.89692;AUC:0.94526;PRC:0.95099;f1_score :0.87940.
+Test the stable model
+stable_set--Loss:0.02154;Accuracy:0.99196;Precision:0.98631;Recall:0.99777;AUC:0.99980;PRC:0.99980;f1_score :0.99201.
+stable_set--Loss:0.61734;Accuracy:0.86412;Precision:0.84300;Recall:0.89491;AUC:0.93469;PRC:0.93992;f1_score :0.86818.
+stable_set--Loss:0.61527;Accuracy:0.86776;Precision:0.84723;Recall:0.89733;AUC:0.93777;PRC:0.94516;f1_score :0.87156.
+Test the stable model
+stable_set--Loss:0.00122;Accuracy:0.99982;Precision:0.99977;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.72436;Accuracy:0.88095;Precision:0.88033;Recall:0.88177;AUC:0.94321;PRC:0.94961;f1_score :0.88105.
+stable_set--Loss:0.73820;Accuracy:0.88090;Precision:0.87596;Recall:0.88747;AUC:0.94385;PRC:0.95086;f1_score :0.88168.
+Test the stable model
+stable_set--Loss:0.01310;Accuracy:0.99589;Precision:0.99578;Recall:0.99601;AUC:0.99981;PRC:0.99984;f1_score :0.99589.
+stable_set--Loss:0.57517;Accuracy:0.88424;Precision:0.88111;Recall:0.88834;AUC:0.94760;PRC:0.95296;f1_score :0.88471.
+stable_set--Loss:0.66005;Accuracy:0.87700;Precision:0.87076;Recall:0.88542;AUC:0.94151;PRC:0.94908;f1_score :0.87803.
+Test the stable model
+stable_set--Loss:0.00188;Accuracy:0.99959;Precision:0.99953;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99959.
+stable_set--Loss:0.69397;Accuracy:0.88013;Precision:0.86399;Recall:0.90230;AUC:0.94715;PRC:0.95281;f1_score :0.88273.
+stable_set--Loss:0.76724;Accuracy:0.87906;Precision:0.86396;Recall:0.89979;AUC:0.94282;PRC:0.95032;f1_score :0.88151.
+Test the stable model
+stable_set--Loss:0.01744;Accuracy:0.99560;Precision:0.99346;Recall:0.99777;AUC:0.99990;PRC:0.99990;f1_score :0.99561.
+stable_set--Loss:0.54991;Accuracy:0.86946;Precision:0.84992;Recall:0.89737;AUC:0.94030;PRC:0.94595;f1_score :0.87300.
+stable_set--Loss:0.59297;Accuracy:0.86242;Precision:0.84272;Recall:0.89117;AUC:0.93595;PRC:0.94329;f1_score :0.86627.
+Test the stable model
+stable_set--Loss:0.00124;Accuracy:0.99971;Precision:0.99953;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.78648;Accuracy:0.88136;Precision:0.87672;Recall:0.88752;AUC:0.94664;PRC:0.95078;f1_score :0.88209.
+stable_set--Loss:0.81905;Accuracy:0.88316;Precision:0.88051;Recall:0.88665;AUC:0.94588;PRC:0.95290;f1_score :0.88357.
+Test the stable model
+stable_set--Loss:0.01371;Accuracy:0.99607;Precision:0.99753;Recall:0.99460;AUC:0.99989;PRC:0.99988;f1_score :0.99606.
+stable_set--Loss:0.60496;Accuracy:0.87931;Precision:0.88436;Recall:0.87274;AUC:0.94210;PRC:0.94335;f1_score :0.87851.
+stable_set--Loss:0.60782;Accuracy:0.87803;Precision:0.88922;Recall:0.86366;AUC:0.94168;PRC:0.94648;f1_score :0.87625.
+Test the stable model
+stable_set--Loss:0.00114;Accuracy:0.99977;Precision:0.99953;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.77971;Accuracy:0.87890;Precision:0.87308;Recall:0.88670;AUC:0.94334;PRC:0.94756;f1_score :0.87984.
+stable_set--Loss:0.80206;Accuracy:0.88049;Precision:0.87434;Recall:0.88871;AUC:0.94289;PRC:0.94846;f1_score :0.88147.
+Test the stable model
+stable_set--Loss:0.01457;Accuracy:0.99531;Precision:0.99380;Recall:0.99683;AUC:0.99988;PRC:0.99988;f1_score :0.99531.
+stable_set--Loss:0.82933;Accuracy:0.86084;Precision:0.83524;Recall:0.89901;AUC:0.93565;PRC:0.93968;f1_score :0.86595.
+stable_set--Loss:0.78120;Accuracy:0.86119;Precision:0.83971;Recall:0.89281;AUC:0.93840;PRC:0.94438;f1_score :0.86545.
+Test the stable model
+stable_set--Loss:0.00153;Accuracy:0.99965;Precision:0.99941;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.75962;Accuracy:0.87726;Precision:0.86908;Recall:0.88834;AUC:0.94365;PRC:0.94857;f1_score :0.87860.
+stable_set--Loss:0.76129;Accuracy:0.87495;Precision:0.86815;Recall:0.88419;AUC:0.94313;PRC:0.95026;f1_score :0.87609.
+Test the stable model
+stable_set--Loss:0.00589;Accuracy:0.99842;Precision:0.99742;Recall:0.99941;AUC:0.99998;PRC:0.99998;f1_score :0.99842.
+stable_set--Loss:0.75777;Accuracy:0.87726;Precision:0.86497;Recall:0.89409;AUC:0.94000;PRC:0.94458;f1_score :0.87929.
+stable_set--Loss:0.73766;Accuracy:0.87495;Precision:0.86375;Recall:0.89035;AUC:0.94041;PRC:0.94554;f1_score :0.87685.
+Test the stable model
+stable_set--Loss:0.00097;Accuracy:0.99977;Precision:0.99953;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.81973;Accuracy:0.88506;Precision:0.87701;Recall:0.89573;AUC:0.94500;PRC:0.94987;f1_score :0.88627.
+stable_set--Loss:0.84294;Accuracy:0.88193;Precision:0.87530;Recall:0.89076;AUC:0.94337;PRC:0.94925;f1_score :0.88296.
+Test the stable model
+stable_set--Loss:0.01529;Accuracy:0.99507;Precision:0.99507;Recall:0.99507;AUC:0.99980;PRC:0.99980;f1_score :0.99507.
+stable_set--Loss:0.84620;Accuracy:0.87397;Precision:0.87002;Recall:0.87931;AUC:0.93697;PRC:0.94215;f1_score :0.87464.
+stable_set--Loss:0.86461;Accuracy:0.87536;Precision:0.87094;Recall:0.88131;AUC:0.93613;PRC:0.94174;f1_score :0.87610.
+Test the stable model
+stable_set--Loss:0.00127;Accuracy:0.99971;Precision:0.99977;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.77572;Accuracy:0.87767;Precision:0.87277;Recall:0.88424;AUC:0.94590;PRC:0.95071;f1_score :0.87847.
+stable_set--Loss:0.81971;Accuracy:0.88172;Precision:0.87739;Recall:0.88747;AUC:0.94325;PRC:0.94857;f1_score :0.88240.
+Test the stable model
+stable_set--Loss:0.00886;Accuracy:0.99730;Precision:0.99835;Recall:0.99625;AUC:0.99994;PRC:0.99994;f1_score :0.99730.
+stable_set--Loss:0.66089;Accuracy:0.87808;Precision:0.87287;Recall:0.88506;AUC:0.94161;PRC:0.94495;f1_score :0.87892.
+stable_set--Loss:0.70353;Accuracy:0.88214;Precision:0.87748;Recall:0.88830;AUC:0.94024;PRC:0.94576;f1_score :0.88286.
+Test the stable model
+stable_set--Loss:0.00147;Accuracy:0.99977;Precision:0.99977;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.76375;Accuracy:0.88342;Precision:0.88595;Recall:0.88013;AUC:0.94238;PRC:0.94845;f1_score :0.88303.
+stable_set--Loss:0.78405;Accuracy:0.88460;Precision:0.88587;Recall:0.88296;AUC:0.94297;PRC:0.94953;f1_score :0.88441.
+Test the stable model
+stable_set--Loss:0.01298;Accuracy:0.99578;Precision:0.99531;Recall:0.99625;AUC:0.99983;PRC:0.99983;f1_score :0.99578.
+stable_set--Loss:0.68683;Accuracy:0.87726;Precision:0.86789;Recall:0.88998;AUC:0.94339;PRC:0.94576;f1_score :0.87880.
+stable_set--Loss:0.73654;Accuracy:0.87823;Precision:0.87018;Recall:0.88912;AUC:0.94051;PRC:0.94664;f1_score :0.87954.
+Test the stable model
+stable_set--Loss:0.00100;Accuracy:0.99953;Precision:0.99953;Recall:0.99953;AUC:1.00000;PRC:1.00000;f1_score :0.99953.
+stable_set--Loss:0.92516;Accuracy:0.88177;Precision:0.87990;Recall:0.88424;AUC:0.94420;PRC:0.94985;f1_score :0.88206.
+stable_set--Loss:0.96233;Accuracy:0.88604;Precision:0.88462;Recall:0.88789;AUC:0.94173;PRC:0.94827;f1_score :0.88625.
+Test the stable model
+stable_set--Loss:0.01734;Accuracy:0.99437;Precision:0.99882;Recall:0.98991;AUC:0.99984;PRC:0.99985;f1_score :0.99434.
+stable_set--Loss:0.63318;Accuracy:0.88547;Precision:0.90370;Recall:0.86289;AUC:0.94257;PRC:0.94803;f1_score :0.88282.
+stable_set--Loss:0.70222;Accuracy:0.87906;Precision:0.89957;Recall:0.85339;AUC:0.93596;PRC:0.94353;f1_score :0.87587.
+Test the stable model
+stable_set--Loss:0.00104;Accuracy:0.99971;Precision:0.99953;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.79729;Accuracy:0.87849;Precision:0.86529;Recall:0.89655;AUC:0.94477;PRC:0.94957;f1_score :0.88065.
+stable_set--Loss:0.87545;Accuracy:0.87598;Precision:0.86143;Recall:0.89610;AUC:0.94162;PRC:0.94764;f1_score :0.87842.
+Test the stable model
+stable_set--Loss:0.00990;Accuracy:0.99806;Precision:0.99766;Recall:0.99847;AUC:0.99989;PRC:0.99993;f1_score :0.99806.
+stable_set--Loss:0.58030;Accuracy:0.87726;Precision:0.85759;Recall:0.90476;AUC:0.94597;PRC:0.95084;f1_score :0.88054.
+stable_set--Loss:0.66605;Accuracy:0.86982;Precision:0.85107;Recall:0.89651;AUC:0.93828;PRC:0.94471;f1_score :0.87320.
+Test the stable model
+stable_set--Loss:0.00187;Accuracy:0.99965;Precision:0.99977;Recall:0.99953;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.67805;Accuracy:0.88465;Precision:0.87631;Recall:0.89573;AUC:0.94748;PRC:0.95233;f1_score :0.88591.
+stable_set--Loss:0.78340;Accuracy:0.87926;Precision:0.87133;Recall:0.88994;AUC:0.94133;PRC:0.94698;f1_score :0.88054.
+Test the stable model
+stable_set--Loss:0.00985;Accuracy:0.99671;Precision:0.99695;Recall:0.99648;AUC:0.99993;PRC:0.99993;f1_score :0.99671.
+stable_set--Loss:0.68134;Accuracy:0.88013;Precision:0.87460;Recall:0.88752;AUC:0.94368;PRC:0.94811;f1_score :0.88101.
+stable_set--Loss:0.76271;Accuracy:0.87639;Precision:0.86792;Recall:0.88789;AUC:0.93890;PRC:0.94362;f1_score :0.87779.
+Test the stable model
+stable_set--Loss:0.00091;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.81380;Accuracy:0.87808;Precision:0.86988;Recall:0.88916;AUC:0.94321;PRC:0.94816;f1_score :0.87942.
+stable_set--Loss:0.93666;Accuracy:0.87474;Precision:0.86167;Recall:0.89281;AUC:0.93869;PRC:0.94671;f1_score :0.87697.
+Test the stable model
+stable_set--Loss:0.00887;Accuracy:0.99765;Precision:0.99812;Recall:0.99718;AUC:0.99992;PRC:0.99992;f1_score :0.99765.
+stable_set--Loss:0.77457;Accuracy:0.87521;Precision:0.87582;Recall:0.87438;AUC:0.94078;PRC:0.94329;f1_score :0.87510.
+stable_set--Loss:0.86286;Accuracy:0.87844;Precision:0.87813;Recall:0.87885;AUC:0.93797;PRC:0.94300;f1_score :0.87849.
+Test the stable model
+stable_set--Loss:0.00114;Accuracy:0.99971;Precision:0.99977;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.81660;Accuracy:0.88834;Precision:0.88644;Recall:0.89080;AUC:0.94532;PRC:0.95050;f1_score :0.88862.
+stable_set--Loss:0.92716;Accuracy:0.87864;Precision:0.87298;Recall:0.88624;AUC:0.93893;PRC:0.94562;f1_score :0.87956.
+Test the stable model
+stable_set--Loss:0.01298;Accuracy:0.99619;Precision:0.99370;Recall:0.99871;AUC:0.99992;PRC:0.99993;f1_score :0.99620.
+stable_set--Loss:0.68433;Accuracy:0.87644;Precision:0.85405;Recall:0.90805;AUC:0.94564;PRC:0.95058;f1_score :0.88022.
+stable_set--Loss:0.76363;Accuracy:0.87618;Precision:0.85587;Recall:0.90472;AUC:0.93940;PRC:0.94490;f1_score :0.87962.
+Test the stable model
+stable_set--Loss:0.00105;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.72924;Accuracy:0.89368;Precision:0.88452;Recall:0.90558;AUC:0.94910;PRC:0.95403;f1_score :0.89493.
+stable_set--Loss:0.81373;Accuracy:0.87967;Precision:0.87173;Recall:0.89035;AUC:0.94476;PRC:0.95076;f1_score :0.88094.
+Test the stable model
+stable_set--Loss:0.00965;Accuracy:0.99736;Precision:0.99695;Recall:0.99777;AUC:0.99988;PRC:0.99988;f1_score :0.99736.
+stable_set--Loss:0.71047;Accuracy:0.88136;Precision:0.87309;Recall:0.89245;AUC:0.94514;PRC:0.94976;f1_score :0.88266.
+stable_set--Loss:0.76487;Accuracy:0.87947;Precision:0.87500;Recall:0.88542;AUC:0.94340;PRC:0.94802;f1_score :0.88018.
+Test the stable model
+stable_set--Loss:0.00108;Accuracy:0.99977;Precision:0.99965;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.75765;Accuracy:0.88177;Precision:0.87621;Recall:0.88916;AUC:0.94708;PRC:0.95183;f1_score :0.88264.
+stable_set--Loss:0.81556;Accuracy:0.88522;Precision:0.88223;Recall:0.88912;AUC:0.94468;PRC:0.95085;f1_score :0.88566.
+Test the stable model
+stable_set--Loss:0.02034;Accuracy:0.99284;Precision:0.99858;Recall:0.98709;AUC:0.99975;PRC:0.99979;f1_score :0.99280.
+stable_set--Loss:0.61704;Accuracy:0.87972;Precision:0.89295;Recall:0.86289;AUC:0.93966;PRC:0.94669;f1_score :0.87766.
+stable_set--Loss:0.70326;Accuracy:0.87166;Precision:0.89211;Recall:0.84559;AUC:0.93277;PRC:0.94128;f1_score :0.86823.
+Test the stable model
+stable_set--Loss:0.00118;Accuracy:0.99965;Precision:0.99965;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.87720;Accuracy:0.88465;Precision:0.86803;Recall:0.90722;AUC:0.94519;PRC:0.95021;f1_score :0.88719.
+stable_set--Loss:0.95525;Accuracy:0.88090;Precision:0.86967;Recall:0.89610;AUC:0.94195;PRC:0.94821;f1_score :0.88269.
+Test the stable model
+stable_set--Loss:0.00757;Accuracy:0.99765;Precision:0.99672;Recall:0.99859;AUC:0.99996;PRC:0.99996;f1_score :0.99766.
+stable_set--Loss:0.73514;Accuracy:0.87521;Precision:0.85703;Recall:0.90066;AUC:0.94718;PRC:0.95221;f1_score :0.87830.
+stable_set--Loss:0.78546;Accuracy:0.88131;Precision:0.86860;Recall:0.89856;AUC:0.94352;PRC:0.94883;f1_score :0.88333.
+Test the stable model
+stable_set--Loss:0.00123;Accuracy:0.99982;Precision:0.99988;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.82926;Accuracy:0.88629;Precision:0.87253;Recall:0.90476;AUC:0.94345;PRC:0.94669;f1_score :0.88835.
+stable_set--Loss:0.87646;Accuracy:0.87947;Precision:0.86783;Recall:0.89528;AUC:0.94309;PRC:0.94898;f1_score :0.88134.
+Test the stable model
+stable_set--Loss:0.01023;Accuracy:0.99812;Precision:0.99731;Recall:0.99894;AUC:0.99993;PRC:0.99993;f1_score :0.99812.
+stable_set--Loss:0.85166;Accuracy:0.87479;Precision:0.85973;Recall:0.89573;AUC:0.93734;PRC:0.94210;f1_score :0.87736.
+stable_set--Loss:0.81189;Accuracy:0.87803;Precision:0.86427;Recall:0.89692;AUC:0.93877;PRC:0.94585;f1_score :0.88029.
+Test the stable model
+stable_set--Loss:0.00117;Accuracy:0.99965;Precision:0.99953;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.88725;Accuracy:0.88383;Precision:0.87550;Recall:0.89491;AUC:0.94087;PRC:0.94492;f1_score :0.88510.
+stable_set--Loss:0.88365;Accuracy:0.88234;Precision:0.87601;Recall:0.89076;AUC:0.94260;PRC:0.94931;f1_score :0.88332.
+Test the stable model
+stable_set--Loss:0.00736;Accuracy:0.99783;Precision:0.99847;Recall:0.99718;AUC:0.99993;PRC:0.99993;f1_score :0.99783.
+stable_set--Loss:0.89226;Accuracy:0.87562;Precision:0.87045;Recall:0.88259;AUC:0.93931;PRC:0.94493;f1_score :0.87648.
+stable_set--Loss:0.95249;Accuracy:0.88131;Precision:0.87606;Recall:0.88830;AUC:0.93674;PRC:0.94481;f1_score :0.88214.
+Test the stable model
+stable_set--Loss:0.00102;Accuracy:0.99977;Precision:0.99965;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.73797;Accuracy:0.88342;Precision:0.87783;Recall:0.89080;AUC:0.94386;PRC:0.94827;f1_score :0.88427.
+stable_set--Loss:0.75682;Accuracy:0.88809;Precision:0.88074;Recall:0.89774;AUC:0.94445;PRC:0.95268;f1_score :0.88916.
+Test the stable model
+stable_set--Loss:0.00728;Accuracy:0.99765;Precision:0.99824;Recall:0.99707;AUC:0.99995;PRC:0.99995;f1_score :0.99765.
+stable_set--Loss:0.92511;Accuracy:0.87972;Precision:0.88066;Recall:0.87849;AUC:0.93969;PRC:0.94400;f1_score :0.87957.
+stable_set--Loss:0.95420;Accuracy:0.87947;Precision:0.88340;Recall:0.87433;AUC:0.93986;PRC:0.94585;f1_score :0.87884.
+Test the stable model
+stable_set--Loss:0.00068;Accuracy:0.99988;Precision:0.99977;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99988.
+stable_set--Loss:0.93522;Accuracy:0.88054;Precision:0.87229;Recall:0.89163;AUC:0.94072;PRC:0.94479;f1_score :0.88185.
+stable_set--Loss:0.90880;Accuracy:0.88522;Precision:0.87884;Recall:0.89363;AUC:0.94363;PRC:0.94983;f1_score :0.88617.
+Test the stable model
+stable_set--Loss:0.01043;Accuracy:0.99742;Precision:0.99754;Recall:0.99730;AUC:0.99984;PRC:0.99986;f1_score :0.99742.
+stable_set--Loss:0.82003;Accuracy:0.88300;Precision:0.88206;Recall:0.88424;AUC:0.93955;PRC:0.94485;f1_score :0.88315.
+stable_set--Loss:0.87960;Accuracy:0.88275;Precision:0.88322;Recall:0.88214;AUC:0.93691;PRC:0.94458;f1_score :0.88268.
+Test the stable model
+stable_set--Loss:0.00137;Accuracy:0.99982;Precision:0.99977;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.70953;Accuracy:0.88259;Precision:0.87948;Recall:0.88670;AUC:0.94430;PRC:0.95093;f1_score :0.88307.
+stable_set--Loss:0.75014;Accuracy:0.88419;Precision:0.88324;Recall:0.88542;AUC:0.94222;PRC:0.94969;f1_score :0.88433.
+Test the stable model
+stable_set--Loss:0.01789;Accuracy:0.99531;Precision:0.99776;Recall:0.99284;AUC:0.99964;PRC:0.99971;f1_score :0.99529.
+stable_set--Loss:0.61711;Accuracy:0.87931;Precision:0.88824;Recall:0.86782;AUC:0.94221;PRC:0.94761;f1_score :0.87791.
+stable_set--Loss:0.62985;Accuracy:0.88152;Precision:0.88325;Recall:0.87926;AUC:0.94094;PRC:0.94704;f1_score :0.88125.
+Test the stable model
+stable_set--Loss:0.00075;Accuracy:0.99977;Precision:0.99977;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.82024;Accuracy:0.88547;Precision:0.88264;Recall:0.88916;AUC:0.94580;PRC:0.95108;f1_score :0.88589.
+stable_set--Loss:0.88133;Accuracy:0.88029;Precision:0.87982;Recall:0.88090;AUC:0.94222;PRC:0.94896;f1_score :0.88036.
+Test the stable model
+stable_set--Loss:0.00795;Accuracy:0.99783;Precision:0.99812;Recall:0.99754;AUC:0.99993;PRC:0.99992;f1_score :0.99783.
+stable_set--Loss:0.91058;Accuracy:0.88013;Precision:0.87520;Recall:0.88670;AUC:0.94242;PRC:0.94849;f1_score :0.88091.
+stable_set--Loss:0.95505;Accuracy:0.88214;Precision:0.88562;Recall:0.87762;AUC:0.94016;PRC:0.94680;f1_score :0.88160.
+Test the stable model
+stable_set--Loss:0.00093;Accuracy:0.99977;Precision:0.99988;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.83377;Accuracy:0.88506;Precision:0.87884;Recall:0.89327;AUC:0.94551;PRC:0.95162;f1_score :0.88599.
+stable_set--Loss:0.90736;Accuracy:0.88563;Precision:0.88484;Recall:0.88665;AUC:0.94163;PRC:0.94841;f1_score :0.88574.
+Test the stable model
+stable_set--Loss:0.01014;Accuracy:0.99718;Precision:0.99614;Recall:0.99824;AUC:0.99988;PRC:0.99987;f1_score :0.99719.
+stable_set--Loss:0.68633;Accuracy:0.86700;Precision:0.85197;Recall:0.88834;AUC:0.94181;PRC:0.94773;f1_score :0.86977.
+stable_set--Loss:0.69700;Accuracy:0.87577;Precision:0.86310;Recall:0.89322;AUC:0.94200;PRC:0.94757;f1_score :0.87790.
+Test the stable model
+stable_set--Loss:0.00166;Accuracy:0.99965;Precision:0.99941;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99965.
+stable_set--Loss:0.66181;Accuracy:0.87972;Precision:0.87030;Recall:0.89245;AUC:0.94461;PRC:0.94970;f1_score :0.88123.
+stable_set--Loss:0.70189;Accuracy:0.88090;Precision:0.87294;Recall:0.89158;AUC:0.94340;PRC:0.95052;f1_score :0.88216.
+Test the stable model
+stable_set--Loss:0.00493;Accuracy:0.99918;Precision:0.99859;Recall:0.99977;AUC:0.99999;PRC:0.99999;f1_score :0.99918.
+stable_set--Loss:0.64059;Accuracy:0.87890;Precision:0.87429;Recall:0.88506;AUC:0.94424;PRC:0.94758;f1_score :0.87964.
+stable_set--Loss:0.66656;Accuracy:0.88255;Precision:0.88005;Recall:0.88583;AUC:0.94318;PRC:0.94916;f1_score :0.88293.
+Test the stable model
+stable_set--Loss:0.00056;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.87259;Accuracy:0.88177;Precision:0.87379;Recall:0.89245;AUC:0.94455;PRC:0.94927;f1_score :0.88302.
+stable_set--Loss:0.90129;Accuracy:0.88337;Precision:0.87993;Recall:0.88789;AUC:0.94323;PRC:0.95004;f1_score :0.88389.
+Test the stable model
+stable_set--Loss:0.01420;Accuracy:0.99648;Precision:0.99671;Recall:0.99625;AUC:0.99973;PRC:0.99968;f1_score :0.99648.
+stable_set--Loss:0.80709;Accuracy:0.87479;Precision:0.87387;Recall:0.87603;AUC:0.93808;PRC:0.94344;f1_score :0.87495.
+stable_set--Loss:0.79954;Accuracy:0.87515;Precision:0.86790;Recall:0.88501;AUC:0.93941;PRC:0.94629;f1_score :0.87637.
+Test the stable model
+stable_set--Loss:0.00075;Accuracy:0.99982;Precision:0.99988;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:1.02901;Accuracy:0.88547;Precision:0.87470;Recall:0.89984;AUC:0.94131;PRC:0.94604;f1_score :0.88709.
+stable_set--Loss:1.01441;Accuracy:0.88357;Precision:0.87390;Recall:0.89651;AUC:0.94197;PRC:0.94812;f1_score :0.88506.
+Test the stable model
+stable_set--Loss:0.00808;Accuracy:0.99783;Precision:0.99719;Recall:0.99847;AUC:0.99990;PRC:0.99991;f1_score :0.99783.
+stable_set--Loss:0.96739;Accuracy:0.87685;Precision:0.86085;Recall:0.89901;AUC:0.94004;PRC:0.94467;f1_score :0.87952.
+stable_set--Loss:0.99954;Accuracy:0.87105;Precision:0.85473;Recall:0.89405;AUC:0.93835;PRC:0.94435;f1_score :0.87395.
+Test the stable model
+stable_set--Loss:0.00065;Accuracy:0.99982;Precision:0.99977;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:1.00499;Accuracy:0.88629;Precision:0.88221;Recall:0.89163;AUC:0.94331;PRC:0.94752;f1_score :0.88689.
+stable_set--Loss:1.04619;Accuracy:0.87988;Precision:0.87268;Recall:0.88953;AUC:0.94131;PRC:0.94773;f1_score :0.88103.
+Test the stable model
+stable_set--Loss:0.00804;Accuracy:0.99759;Precision:0.99602;Recall:0.99918;AUC:0.99997;PRC:0.99997;f1_score :0.99760.
+stable_set--Loss:0.78843;Accuracy:0.87192;Precision:0.85502;Recall:0.89573;AUC:0.94255;PRC:0.94850;f1_score :0.87490.
+stable_set--Loss:0.86645;Accuracy:0.87002;Precision:0.85250;Recall:0.89487;AUC:0.93709;PRC:0.94457;f1_score :0.87317.
+Test the stable model
+stable_set--Loss:0.00071;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.93517;Accuracy:0.88095;Precision:0.86767;Recall:0.89901;AUC:0.94593;PRC:0.95044;f1_score :0.88306.
+stable_set--Loss:1.02550;Accuracy:0.87864;Precision:0.86880;Recall:0.89199;AUC:0.94148;PRC:0.94854;f1_score :0.88024.
+Test the stable model
+stable_set--Loss:0.00826;Accuracy:0.99759;Precision:0.99637;Recall:0.99883;AUC:0.99995;PRC:0.99995;f1_score :0.99760.
+stable_set--Loss:0.91179;Accuracy:0.87479;Precision:0.84981;Recall:0.91051;AUC:0.94178;PRC:0.94601;f1_score :0.87911.
+stable_set--Loss:0.96681;Accuracy:0.86920;Precision:0.84604;Recall:0.90267;AUC:0.93975;PRC:0.94522;f1_score :0.87344.
+Test the stable model
+stable_set--Loss:0.00049;Accuracy:0.99988;Precision:0.99977;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99988.
+stable_set--Loss:0.87079;Accuracy:0.87890;Precision:0.87612;Recall:0.88259;AUC:0.94404;PRC:0.94937;f1_score :0.87935.
+stable_set--Loss:0.94370;Accuracy:0.88070;Precision:0.87961;Recall:0.88214;AUC:0.94114;PRC:0.94796;f1_score :0.88087.
+Test the stable model
+stable_set--Loss:0.00831;Accuracy:0.99783;Precision:0.99894;Recall:0.99671;AUC:0.99991;PRC:0.99992;f1_score :0.99783.
+stable_set--Loss:0.79611;Accuracy:0.87808;Precision:0.88152;Recall:0.87356;AUC:0.94371;PRC:0.94835;f1_score :0.87753.
+stable_set--Loss:0.82035;Accuracy:0.88070;Precision:0.88243;Recall:0.87844;AUC:0.94086;PRC:0.94667;f1_score :0.88043.
+Test the stable model
+stable_set--Loss:0.00076;Accuracy:0.99982;Precision:0.99977;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.88576;Accuracy:0.88177;Precision:0.88177;Recall:0.88177;AUC:0.94458;PRC:0.94982;f1_score :0.88177.
+stable_set--Loss:0.90291;Accuracy:0.88090;Precision:0.88028;Recall:0.88172;AUC:0.94035;PRC:0.94751;f1_score :0.88100.
+Test the stable model
+stable_set--Loss:0.00887;Accuracy:0.99736;Precision:0.99777;Recall:0.99695;AUC:0.99994;PRC:0.99994;f1_score :0.99736.
+stable_set--Loss:0.76435;Accuracy:0.88547;Precision:0.88389;Recall:0.88752;AUC:0.94469;PRC:0.94990;f1_score :0.88570.
+stable_set--Loss:0.83078;Accuracy:0.87885;Precision:0.87885;Recall:0.87885;AUC:0.94028;PRC:0.94498;f1_score :0.87885.
+Test the stable model
+stable_set--Loss:0.00084;Accuracy:0.99988;Precision:0.99988;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99988.
+stable_set--Loss:0.77224;Accuracy:0.88259;Precision:0.87460;Recall:0.89327;AUC:0.94600;PRC:0.95019;f1_score :0.88383.
+stable_set--Loss:0.79479;Accuracy:0.87947;Precision:0.87228;Recall:0.88912;AUC:0.94451;PRC:0.95146;f1_score :0.88062.
+Test the stable model
+stable_set--Loss:0.00432;Accuracy:0.99853;Precision:0.99777;Recall:0.99930;AUC:0.99999;PRC:0.99999;f1_score :0.99853.
+stable_set--Loss:0.94738;Accuracy:0.87315;Precision:0.85647;Recall:0.89655;AUC:0.93671;PRC:0.94238;f1_score :0.87605.
+stable_set--Loss:0.98090;Accuracy:0.87515;Precision:0.85894;Recall:0.89774;AUC:0.93774;PRC:0.94603;f1_score :0.87791.
+Test the stable model
+stable_set--Loss:0.00045;Accuracy:0.99988;Precision:0.99977;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99988.
+stable_set--Loss:0.91303;Accuracy:0.88218;Precision:0.87815;Recall:0.88752;AUC:0.94422;PRC:0.95103;f1_score :0.88281.
+stable_set--Loss:0.96686;Accuracy:0.88337;Precision:0.88180;Recall:0.88542;AUC:0.94254;PRC:0.95091;f1_score :0.88361.
+Test the stable model
+stable_set--Loss:0.00631;Accuracy:0.99812;Precision:0.99684;Recall:0.99941;AUC:0.99997;PRC:0.99998;f1_score :0.99812.
+stable_set--Loss:0.77615;Accuracy:0.87644;Precision:0.85625;Recall:0.90476;AUC:0.94440;PRC:0.95053;f1_score :0.87984.
+stable_set--Loss:0.80891;Accuracy:0.87290;Precision:0.85112;Recall:0.90390;AUC:0.94246;PRC:0.94862;f1_score :0.87672.
+Test the stable model
+stable_set--Loss:0.00049;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.94570;Accuracy:0.88136;Precision:0.87369;Recall:0.89163;AUC:0.94501;PRC:0.95072;f1_score :0.88257.
+stable_set--Loss:0.96162;Accuracy:0.88686;Precision:0.88015;Recall:0.89569;AUC:0.94599;PRC:0.95251;f1_score :0.88785.
+Test the stable model
+stable_set--Loss:0.00524;Accuracy:0.99865;Precision:0.99801;Recall:0.99930;AUC:0.99991;PRC:0.99988;f1_score :0.99865.
+stable_set--Loss:0.85891;Accuracy:0.87808;Precision:0.86005;Recall:0.90312;AUC:0.94271;PRC:0.94863;f1_score :0.88106.
+stable_set--Loss:0.88380;Accuracy:0.87988;Precision:0.86648;Recall:0.89815;AUC:0.94196;PRC:0.94815;f1_score :0.88203.
+Test the stable model
+stable_set--Loss:0.00090;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.76500;Accuracy:0.88218;Precision:0.86857;Recall:0.90066;AUC:0.94546;PRC:0.95177;f1_score :0.88432.
+stable_set--Loss:0.79597;Accuracy:0.88337;Precision:0.87147;Recall:0.89938;AUC:0.94503;PRC:0.95355;f1_score :0.88521.
+Test the stable model
+stable_set--Loss:0.00694;Accuracy:0.99812;Precision:0.99777;Recall:0.99847;AUC:0.99996;PRC:0.99997;f1_score :0.99812.
+stable_set--Loss:0.82291;Accuracy:0.86823;Precision:0.85012;Recall:0.89409;AUC:0.93739;PRC:0.94505;f1_score :0.87155.
+stable_set--Loss:0.84230;Accuracy:0.87392;Precision:0.85580;Recall:0.89938;AUC:0.93920;PRC:0.94685;f1_score :0.87705.
+Test the stable model
+stable_set--Loss:0.00069;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:1.08548;Accuracy:0.87808;Precision:0.86929;Recall:0.88998;AUC:0.94252;PRC:0.94806;f1_score :0.87951.
+stable_set--Loss:1.13482;Accuracy:0.88172;Precision:0.87314;Recall:0.89322;AUC:0.94146;PRC:0.94870;f1_score :0.88307.
+Test the stable model
+stable_set--Loss:0.00598;Accuracy:0.99830;Precision:0.99801;Recall:0.99859;AUC:0.99995;PRC:0.99996;f1_score :0.99830.
+stable_set--Loss:0.78937;Accuracy:0.87562;Precision:0.86629;Recall:0.88834;AUC:0.93970;PRC:0.94564;f1_score :0.87718.
+stable_set--Loss:0.83377;Accuracy:0.87331;Precision:0.85929;Recall:0.89281;AUC:0.93940;PRC:0.94713;f1_score :0.87573.
+Test the stable model
+stable_set--Loss:0.00076;Accuracy:0.99971;Precision:0.99977;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.94440;Accuracy:0.88588;Precision:0.88907;Recall:0.88177;AUC:0.94455;PRC:0.95158;f1_score :0.88541.
+stable_set--Loss:1.02237;Accuracy:0.88152;Precision:0.88136;Recall:0.88172;AUC:0.94162;PRC:0.94884;f1_score :0.88154.
+Test the stable model
+stable_set--Loss:0.00499;Accuracy:0.99847;Precision:0.99777;Recall:0.99918;AUC:0.99997;PRC:0.99997;f1_score :0.99848.
+stable_set--Loss:1.16237;Accuracy:0.88547;Precision:0.87772;Recall:0.89573;AUC:0.93980;PRC:0.94428;f1_score :0.88663.
+stable_set--Loss:1.23015;Accuracy:0.87844;Precision:0.86699;Recall:0.89405;AUC:0.93859;PRC:0.94533;f1_score :0.88031.
+Test the stable model
+stable_set--Loss:0.00155;Accuracy:0.99971;Precision:0.99941;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.88471;Accuracy:0.87808;Precision:0.86061;Recall:0.90230;AUC:0.94212;PRC:0.94759;f1_score :0.88096.
+stable_set--Loss:0.94819;Accuracy:0.87598;Precision:0.85888;Recall:0.89979;AUC:0.94080;PRC:0.94774;f1_score :0.87886.
+Test the stable model
+stable_set--Loss:0.00730;Accuracy:0.99748;Precision:0.99953;Recall:0.99542;AUC:0.99999;PRC:0.99999;f1_score :0.99747.
+stable_set--Loss:0.88804;Accuracy:0.88875;Precision:0.90229;Recall:0.87192;AUC:0.94312;PRC:0.94812;f1_score :0.88685.
+stable_set--Loss:0.94265;Accuracy:0.88665;Precision:0.90149;Recall:0.86817;AUC:0.94030;PRC:0.94634;f1_score :0.88452.
+Test the stable model
+stable_set--Loss:0.00161;Accuracy:0.99971;Precision:0.99953;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.91188;Accuracy:0.88300;Precision:0.86588;Recall:0.90640;AUC:0.94348;PRC:0.94914;f1_score :0.88568.
+stable_set--Loss:1.00756;Accuracy:0.87290;Precision:0.85720;Recall:0.89487;AUC:0.93949;PRC:0.94633;f1_score :0.87563.
+Test the stable model
+stable_set--Loss:0.00314;Accuracy:0.99918;Precision:0.99953;Recall:0.99883;AUC:0.99998;PRC:0.99998;f1_score :0.99918.
+stable_set--Loss:0.91013;Accuracy:0.88588;Precision:0.88336;Recall:0.88916;AUC:0.94449;PRC:0.94944;f1_score :0.88625.
+stable_set--Loss:0.99843;Accuracy:0.88275;Precision:0.88197;Recall:0.88378;AUC:0.94091;PRC:0.94665;f1_score :0.88287.
+Test the stable model
+stable_set--Loss:0.00089;Accuracy:0.99988;Precision:0.99977;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99988.
+stable_set--Loss:0.83565;Accuracy:0.88793;Precision:0.88509;Recall:0.89163;AUC:0.94304;PRC:0.94797;f1_score :0.88834.
+stable_set--Loss:0.86242;Accuracy:0.88214;Precision:0.88088;Recall:0.88378;AUC:0.94220;PRC:0.94852;f1_score :0.88233.
+Test the stable model
+stable_set--Loss:0.00561;Accuracy:0.99853;Precision:0.99789;Recall:0.99918;AUC:0.99995;PRC:0.99996;f1_score :0.99853.
+stable_set--Loss:0.84268;Accuracy:0.87972;Precision:0.86504;Recall:0.89984;AUC:0.94040;PRC:0.94497;f1_score :0.88209.
+stable_set--Loss:0.84792;Accuracy:0.87618;Precision:0.86063;Recall:0.89774;AUC:0.94314;PRC:0.94921;f1_score :0.87879.
+Test the stable model
+stable_set--Loss:0.00118;Accuracy:0.99971;Precision:0.99977;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:0.97497;Accuracy:0.88588;Precision:0.87964;Recall:0.89409;AUC:0.94267;PRC:0.94758;f1_score :0.88681.
+stable_set--Loss:1.04766;Accuracy:0.88070;Precision:0.87439;Recall:0.88912;AUC:0.94193;PRC:0.94817;f1_score :0.88169.
+Test the stable model
+stable_set--Loss:0.00432;Accuracy:0.99889;Precision:0.99894;Recall:0.99883;AUC:0.99998;PRC:0.99998;f1_score :0.99889.
+stable_set--Loss:0.93166;Accuracy:0.88465;Precision:0.88944;Recall:0.87849;AUC:0.94375;PRC:0.94884;f1_score :0.88393.
+stable_set--Loss:1.01056;Accuracy:0.88398;Precision:0.88320;Recall:0.88501;AUC:0.94161;PRC:0.94748;f1_score :0.88410.
+Test the stable model
+stable_set--Loss:0.00092;Accuracy:0.99971;Precision:0.99953;Recall:0.99988;AUC:1.00000;PRC:1.00000;f1_score :0.99971.
+stable_set--Loss:1.03494;Accuracy:0.88136;Precision:0.86431;Recall:0.90476;AUC:0.94282;PRC:0.94752;f1_score :0.88408.
+stable_set--Loss:1.12694;Accuracy:0.88008;Precision:0.86567;Recall:0.89979;AUC:0.93923;PRC:0.94504;f1_score :0.88240.
+Test the stable model
+stable_set--Loss:0.00588;Accuracy:0.99865;Precision:0.99766;Recall:0.99965;AUC:0.99997;PRC:0.99997;f1_score :0.99865.
+stable_set--Loss:0.73922;Accuracy:0.88095;Precision:0.86651;Recall:0.90066;AUC:0.94202;PRC:0.94668;f1_score :0.88325.
+stable_set--Loss:0.81176;Accuracy:0.87659;Precision:0.86188;Recall:0.89692;AUC:0.93732;PRC:0.94484;f1_score :0.87905.
+Test the stable model
+stable_set--Loss:0.00071;Accuracy:0.99982;Precision:0.99965;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.90674;Accuracy:0.88342;Precision:0.87300;Recall:0.89737;AUC:0.94471;PRC:0.95111;f1_score :0.88502.
+stable_set--Loss:1.08234;Accuracy:0.88090;Precision:0.87324;Recall:0.89117;AUC:0.93860;PRC:0.94514;f1_score :0.88211.
+Test the stable model
+stable_set--Loss:0.01012;Accuracy:0.99795;Precision:0.99882;Recall:0.99707;AUC:0.99972;PRC:0.99980;f1_score :0.99794.
+stable_set--Loss:0.68412;Accuracy:0.88259;Precision:0.88704;Recall:0.87685;AUC:0.94654;PRC:0.95211;f1_score :0.88192.
+stable_set--Loss:0.82750;Accuracy:0.88193;Precision:0.88493;Recall:0.87803;AUC:0.93970;PRC:0.94667;f1_score :0.88147.
+Test the stable model
+stable_set--Loss:0.00109;Accuracy:0.99977;Precision:0.99953;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99977.
+stable_set--Loss:0.84867;Accuracy:0.88136;Precision:0.87611;Recall:0.88834;AUC:0.94651;PRC:0.95120;f1_score :0.88219.
+stable_set--Loss:0.93630;Accuracy:0.88501;Precision:0.88063;Recall:0.89076;AUC:0.94352;PRC:0.94945;f1_score :0.88567.
+Test the stable model
+stable_set--Loss:0.00687;Accuracy:0.99801;Precision:0.99929;Recall:0.99671;AUC:0.99995;PRC:0.99995;f1_score :0.99800.
+stable_set--Loss:0.85192;Accuracy:0.88588;Precision:0.88972;Recall:0.88095;AUC:0.94531;PRC:0.94985;f1_score :0.88531.
+stable_set--Loss:0.91141;Accuracy:0.88583;Precision:0.88742;Recall:0.88378;AUC:0.94442;PRC:0.94962;f1_score :0.88560.
+Test the stable model
+stable_set--Loss:0.00058;Accuracy:0.99982;Precision:1.00000;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:0.87389;Accuracy:0.88711;Precision:0.88427;Recall:0.89080;AUC:0.94486;PRC:0.95037;f1_score :0.88753.
+stable_set--Loss:0.94854;Accuracy:0.88480;Precision:0.88433;Recall:0.88542;AUC:0.94243;PRC:0.94884;f1_score :0.88488.
+Test the stable model
+stable_set--Loss:0.00262;Accuracy:0.99941;Precision:0.99930;Recall:0.99953;AUC:0.99998;PRC:0.99998;f1_score :0.99941.
+stable_set--Loss:0.94448;Accuracy:0.88547;Precision:0.87832;Recall:0.89491;AUC:0.94624;PRC:0.95174;f1_score :0.88654.
+stable_set--Loss:1.05182;Accuracy:0.88214;Precision:0.87964;Recall:0.88542;AUC:0.94205;PRC:0.94912;f1_score :0.88252.
+Test the stable model
+stable_set--Loss:0.00052;Accuracy:0.99988;Precision:0.99977;Recall:1.00000;AUC:1.00000;PRC:1.00000;f1_score :0.99988.
+stable_set--Loss:1.03717;Accuracy:0.87849;Precision:0.86299;Recall:0.89984;AUC:0.94399;PRC:0.94942;f1_score :0.88103.
+stable_set--Loss:1.12181;Accuracy:0.87782;Precision:0.86566;Recall:0.89446;AUC:0.94211;PRC:0.94890;f1_score :0.87982.
+Test the stable model
+stable_set--Loss:0.00720;Accuracy:0.99789;Precision:0.99649;Recall:0.99930;AUC:0.99998;PRC:0.99998;f1_score :0.99789.
+stable_set--Loss:0.88508;Accuracy:0.87931;Precision:0.86264;Recall:0.90230;AUC:0.94296;PRC:0.94676;f1_score :0.88202.
+stable_set--Loss:0.93591;Accuracy:0.87248;Precision:0.85182;Recall:0.90185;AUC:0.93782;PRC:0.94485;f1_score :0.87612.
+Test the stable model
+stable_set--Loss:0.00065;Accuracy:0.99982;Precision:0.99988;Recall:0.99977;AUC:1.00000;PRC:1.00000;f1_score :0.99982.
+stable_set--Loss:1.04010;Accuracy:0.88752;Precision:0.88250;Recall:0.89409;AUC:0.94543;PRC:0.94984;f1_score :0.88825.
+stable_set--Loss:1.14867;Accuracy:0.87906;Precision:0.87368;Recall:0.88624;AUC:0.93875;PRC:0.94552;f1_score :0.87992.
+Test the stable model
+stable_set--Loss:0.00823;Accuracy:0.99795;Precision:0.99707;Recall:0.99883;AUC:0.99994;PRC:0.99994;f1_score :0.99795.
+stable_set--Loss:0.87511;Accuracy:0.87685;Precision:0.87317;Recall:0.88177;AUC:0.94282;PRC:0.94920;f1_score :0.87745.
+stable_set--Loss:1.03801;Accuracy:0.87310;Precision:0.86501;Recall:0.88419;AUC:0.93661;PRC:0.94533;f1_score :0.87449.
+Test the stable model
+stable_set--Loss:0.00091;Accuracy:0.99959;Precision:0.99953;Recall:0.99965;AUC:1.00000;PRC:1.00000;f1_score :0.99959.
+stable_set--Loss:1.20515;Accuracy:0.88424;Precision:0.87321;Recall:0.89901;AUC:0.94197;PRC:0.94739;f1_score :0.88592.
+stable_set--Loss:1.42313;Accuracy:0.88439;Precision:0.87590;Recall:0.89569;AUC:0.93659;PRC:0.94445;f1_score :0.88569.
+Test the stable model
+stable_set--Loss:0.00380;Accuracy:0.99847;Precision:0.99789;Recall:0.99906;AUC:0.99999;PRC:0.99999;f1_score :0.99848.
+stable_set--Loss:1.07660;Accuracy:0.87356;Precision:0.85326;Recall:0.90230;AUC:0.94125;PRC:0.94648;f1_score :0.87709.
+stable_set--Loss:1.31851;Accuracy:0.86694;Precision:0.84405;Recall:0.90021;AUC:0.93264;PRC:0.94067;f1_score :0.87122.
+Test the stable model
+stable_set--Loss:0.00118;Accuracy:0.99953;Precision:0.99977;Recall:0.99930;AUC:1.00000;PRC:1.00000;f1_score :0.99953.
+stable_set--Loss:0.86501;Accuracy:0.88259;Precision:0.87520;Recall:0.89245;AUC:0.94753;PRC:0.95233;f1_score :0.88374.
+stable_set--Loss:1.07672;Accuracy:0.87803;Precision:0.86340;Recall:0.89815;AUC:0.94074;PRC:0.94729;f1_score :0.88043.
